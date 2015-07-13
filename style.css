@@ -1,0 +1,246 @@
+a, .header ul li.current a.inactive {
+	text-decoration: none;
+}
+
+a:link, .header ul li.current a.inactive:link {
+	color: #336ECC;
+}
+
+a:visited, .header ul li.current a.inactive:visited {
+	color: #4A5B78;
+}
+
+a:hover, .header ul li.current a.inactive:hover {
+	color: #0062FF;
+	text-decoration: underline;
+}
+
+a img {
+	border: thin solid #CCC;
+}
+
+a:hover img {
+	border: thin solid #999;
+}
+
+body {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+h2 {
+	color: #333;
+	font-size: 1.4em;
+	margin: 1.5em 0 0.75em -0.5em;
+}
+
+p {
+	margin: 0.5em 0;
+}
+
+ul {
+	margin-left: 2.5em;
+	padding-left: 0;
+}
+
+ul li {
+	line-height: 1.2em;
+	margin: 0.5em 0;
+}
+
+ul.compact li {
+	margin: 0.1em 0;
+}
+
+ul.inline {
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+ul.inline li {
+	display: inline;
+}
+
+ul.inline li:after {
+	content: " - ";
+}
+
+ul.inline li:last-child:after {
+	content: "";
+}
+
+.abstract {
+	margin-left: 2em;
+	margin-right: 12em;
+}
+
+.clear {
+	clear: both;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 50em;
+	padding: 2em 2em 2em 2.5em;
+	text-align: left;
+}
+
+.footer {
+	border-top: 1px solid #CCC;
+	clear: both;
+	color: #666;
+	font-size: 80%;
+	margin-left: -0.5em;
+	margin-top: 0.7em;
+	padding-top: 0.5em;
+	text-align: right;
+}
+
+.header {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 0.7em;
+	margin-left: -0.5em;
+	padding-bottom: 0.9em;
+}
+
+.header a.logo {
+	background-color: black;
+	color: white;
+	display: block;
+	float: left;
+	font-size: 1.3em;
+	line-height: 2em;
+	padding: 0 0.7em;
+	text-decoration: none;
+}
+
+.header a.logo:hover {
+	background-color: #0062FF;
+}
+
+.header ul {
+	float: left;
+	margin: 0 0 0 1.4em;
+}
+
+.header ul li {
+	display: inline;
+	font-size: 1.2em;
+	line-height: 2em;
+	list-style-type: none;
+}
+
+.header ul li:after {
+	content: " / ";
+}
+
+.header ul li:last-child:after {
+	content: "";
+}
+
+.header ul li.current a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.header ul li.current a.inactive {
+	font-weight: normal;
+}
+
+.resume table {
+	border-spacing: 0;
+	margin-bottom: 0.5em;
+}
+
+.resume .position, .resume .school {
+	margin-bottom: 0.8em;
+}
+
+.resume .employer, .resume .schoolname, .resume .jobtitle {
+	width: 100%; /* make the table expand but respect floats */
+}
+
+.resume .location, .resume .gpa, .resume .period {
+	text-align: right;
+	white-space: nowrap; /* avoid getting crushed by 100%-width cell */
+}
+
+.resume .employer, .resume .schoolname {
+	font-weight: bold;
+}
+
+.resume .location, .resume .gpa, .resume .jobtitle, .resume .major,
+.resume .venue {
+	font-style: italic;
+}
+
+.position_header {
+	width: 100%;
+}
+
+.position_header {
+	margin-top: 0.5em;
+}
+
+.sideimg, a.sideimg {
+	clear: both;
+	color: #666;
+	display: block;
+	float: right;
+	font-size: small;
+	margin: 0.7em 0 0.7em 0.7em;
+	width: 20%;
+    text-decoration: none;
+}
+
+.sideimg.landscape {
+    width: 30%;
+}
+
+.sideimg img {
+	width: 100%;
+}
+
+img.logo {
+	border: thin solid #FFF;
+	max-width: 200px;
+	max-height: 100px;
+}
+
+td.logo {
+	color: #666;
+	font-size: small;
+	padding-left: 0.7em;
+    text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.thumbs img {
+	border: thin solid #BBB;
+	margin: 1em;
+}
+
+.title {
+	font-style: italic;
+}
+
+.ref-list {
+    display: table;
+    padding-left: 0.8em;
+}
+
+.ref {
+    display: table-row;
+}
+
+.ref-num {
+    display: table-cell;
+    padding-right: 0.5em;
+}
+
+.ref-entry {
+    display: table-cell;
+}

@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=700" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Sameera Horawalavithana</title>
+</head>
+
+<body>
+<div id="container">
+
+<div class="header">
+  <a class="logo" href="index.html">Sameera Horawalavithana</a>
+  <ul class="nav">
+	<li class="current"><a href="index.html">About</a></li>
+	<li><a href="">Resume</a></li>
+	<li><a href="https://github.com/samtube405">GitHub</a></li>
+	<li><a href="res/present.html">Talks</a></li>
+  </ul>
+  <div class="clear"></div>
+</div>
+
+<img class="sideimg" src="images/sameera.jpg" alt="" />
+
+<p>
+I’m a Computer Science Graduate at <a href="http://ucsc.lk/">University of Colombo School of Computing</a> 
+who is currently working in the Data & Analytic team (SE) at <a href="http://engineering.leapset.com/">Leapset Engineering</a>. 
+I’m working on the Real-Time ETL project utilized by Apache Storm & Hadoop which acts as the core data-warehouse solution for data-services at Leapset products. 
+In past summers, I have interned at <a href="http://www.umu.se/english">Umea University, Sweden</a> as an exchange student to volunteer on research activities.
+Also I enjoy acting as an ambassador for <a href="http://www.acm.org">ACM</a>.
+<br/><br/>
+<b>Major</b> Distributed Systems, Algorithms and Complexity Theory
+</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:sam2010ucsc@acm.org">sam2010ucsc@acm.org</a></p>
+<p>(+94) 776-381951</p>
+<ul class="inline">
+  <li><a href="http://www.geektube405.wordpress.com">Tech Blog</a></li>
+  <li><a href="http://www.facebook.com/SameeraHorawalavithana">Facebook</a></li>
+  <li><a href="https://lk.linkedin.com/pub/yasanka-sameera-horawalavithana/22/13a/968">LinkedIn</a></li>
+  <li><a href="http://twitter.com/samtube405">Twitter</a></li>
+  <li><a href="https://github.com/samtube405">GitHub</a></li>
+  <li><a href="http://quora.com/Sameera-Horawalavithana">Quora</a></li>
+</ul>
+
+<h2>Projects</h2>
+<div class="resume">
+
+<div class="position">
+  <table>
+    <tr>
+      <td>
+        <table class="position_header">
+          <tr>
+            <td class="employer">
+              <a href="">EC2PubSubK: Top-k publish/subscribe</a>
+            </td>
+            <td class="period">March 2014 to present</td>
+          </tr>
+        </table>
+
+		<p>EC2PubSubK is a novel content-based Top-k publish/subscribe model which is implemented on top of AWS. We formalize
+		the above problem of continuous k-diversity as MAXDIVREL which maps to the independent
+		dominating set problem in graph theory, which is NP-hard. An incremental indexing mechanism
+		is proposed for handling streaming publications that is based on Locality Sensitive Hashing
+		(LSH) to diversify Top-k results continuously. </p>
+		
+		<p>In the implementation, we use Amazon Kinesis to distribute the stream of publications across shards and Amazon ElasticCache to serve
+		as an in-memory operational data-store for storing subscription graphs in large scale.        
+      </td>
+      <td class="logo">
+        <a href="">			
+          <img class="logo" src="images/EC2PubSubK.png" />
+		  <img class="logo" src="images/kinesis.png" />
+        </a>
+      </td>
+    </tr>
+	
+	<tr>
+      <td>
+        <table class="position_header">
+          <tr>
+            <td class="employer">
+              <a href="">Real-time Storm ETL</a>
+            </td>
+            <td class="period">February 2015 to present</td>
+          </tr>
+        </table>
+
+        <p>At Leapset, I'm contributing to Real-time Storm ETL which is a data-warehouse solution implemented by Data & Analytics team. The implementation is powered by Apache Storm at the distributed processing layer where Hadoop provides the streaming queue of raw transactional data.
+		Tungsten Replicator is used to synchronize binlogs with HDFS data-storage.</p>
+      </td>
+      <td class="logo">
+        <a href="">
+          <img class="logo" src="images/spark.png" />
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <table class="position_header">
+          <tr>
+            <td class="employer">
+              <a href="">GCOM: Group Communication Middleware</a>
+            </td>
+            <td class="period">October 2013 to Dec. 2013</td>
+          </tr>
+        </table>
+
+        <p>GCOM is a middleware for group communication in Distributed Systems. 
+		The middleware implemented an API that in turn can be used by programmers to develop 
+		applications that make use of reliable messaging. 
+		GCom supported various types of multicast, guarantee causal message ordering and handle group membership issues.</p>
+      </td>
+      <td class="logo">
+        <a href="https://github.com/samtube405/gcom">
+          <img class="logo" src="images/GCom.png" />
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <table class="position_header">
+          <tr>
+            <td class="employer">
+              <a href="https://github.com/SamTube405/MainSplash">Redknot</a>
+            </td>
+            <td class="period">February 2013 to July 2013</td>
+          </tr>
+        </table>
+
+        <p>Redknot is an android application which allows you to track down your favorite places along your way. 
+		Apart from that, now you can review and add images to those places. And get notifications about what's happening there. The Redknot API provided the capability
+		of restful services to query nearby places & track the popularity among the community.</p>        
+      </td>
+      <td class="logo">
+        <a href="https://github.com/SamTube405/MainSplash">
+          <img class="logo" src="images/redknot.png" />
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <table class="position_header">
+          <tr>
+            <td class="employer">
+              <a href="https://www.researchgate.net/publication/261875571_LITERATURE_SURVEY_DISTRIBUTED_SOFTWARE_TRANSACTIONAL_MEMORY">DSTM: Distributed Software Transactional Memory</a>
+            </td>
+            <td class="period">June to August 2010</td>
+          </tr>
+        </table>
+
+        <p>As an undergraduate, I explore how to design scalable concurrent programs on top of
+          Software Transactional Memory, and the journey was documented by a <a href="https://www.researchgate.net/publication/261875571_LITERATURE_SURVEY_DISTRIBUTED_SOFTWARE_TRANSACTIONAL_MEMORY">literature review</a> for a course-work. 
+
+      </td>
+      <td class="logo">
+        <a href="https://www.researchgate.net/publication/261875571_LITERATURE_SURVEY_DISTRIBUTED_SOFTWARE_TRANSACTIONAL_MEMORY">
+          <img src="images/dstm.png" />
+        </a>
+      </td>
+    </tr>
+
+    
+  </table>
+</div>
+
+</div>
+
+<h2>Publications</h2>
+
+<h3>Conference and Workshop Papers</h3>
+
+<div class="ref-list">
+  <div style="ref">
+    <div class="ref-num">[1]</div>
+    <div class="ref-entry">
+      Y.S.Horawalavithana, D.N. Ranasinghe. <a href="">An Efficient Incremental Indexing Mechanism for 
+	  Extracting Top-k Representative Queries Over Continuous Data-streams (Poster)</a>, <span class="venue"><a href="http://www.sisap.org/2015/papers.html">SISAP 2015</a></span> Bristol,UK, October 2015.
+    </div>
+  </div>  
+</div>
+
+<h3>Technical Reports</h3>
+
+<div class="ref-list">
+  <div style="ref">
+    <div class="ref-num">[2]</div>
+    <div class="ref-entry">
+      Y.S.Horawalavithana, D.N. Ranasinghe. <a href="dl/Y.S.Horawalavithana_Undergraduate Thesis_Top-k pub_sub_2015_UCSC.pdf"> Cloud based publish/subscribe model for 
+	  Top-k matching over continuous data-streams (Undergraduate Thesis)</a><span class="venue"> <a href="http://symposium.ucsc.lk/">UCSC Research Symposium</a></span> June 2015.
+    </div>
+  </div>
+  <div style="ref">
+    <div class="ref-num">[3]</div>
+    <div class="ref-entry">
+      Y.S.Horawalavithana, D.N. Ranasinghe. <a href="dl/Y.S.Horawalavithana_Lit_Review_Distributed Software Transactional Memory_2014_UCSC.pdf"> Distributed Software Transactional Memory (Technical Article: Literature review)</a> January 2014.
+    </div>
+  </div> 
+</div>
+
+<h3>Blogs & Articles</h3>
+<div class="ref-list">
+   
+  <div style="ref">
+    <div class="ref-num">[4]</div>
+    <div class="ref-entry">
+      <a href="http://engineering.leapset.com/retl-utilizing-apache-storm-to-process-billions-of-data-transformations-daily/">RETL: utilizing Apache Storm to process billions of data transformations daily</a>
+    </div>
+  </div>  
+</div>
+
+<div class="footer">
+  Page last updated 2014-06-02.
+</div>
+
+</div>
+
+
+</body>
+</html>
