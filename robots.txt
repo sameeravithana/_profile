@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: http://samtube405.github.io/_profile/sitemap.xml
