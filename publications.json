@@ -37,8 +37,8 @@
     },
     {
       "title": "Leveraging Multimodal AI for Efficient Data Discovery in Wind Energy Research",
-      "authors": "Shivam Wagle, Sai Munikoti, Rounak Meyur, Jonathan Whiting, Hayley Farr, Anurag Acharya, Sameera Horawalavithana",
-      "venue": "",
+      "authors": "Sridevi Wagle, Sai Munikoti, Rounak Meyur, Jonathan Whiting, Hayley Farr, Anurag Acharya, Sameera Horawalavithana, Mahantesh Halappanavar, Jan Strube, Laura Fierce",
+      "venue": "Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration",
       "year": 2025,
       "citations": 1,
       "url": "",
@@ -85,8 +85,8 @@
     },
     {
       "title": "Benchmarking LLMs for Environmental Review and Permitting",
-      "authors": "Hung Phan, Anurag Acharya, Sarthak Chaturvedi, Shivam Sharma, Mike Parker, Dan Nally, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "",
+      "authors": "Rounak Meyur, Hung Phan, Koby Hayashi, Ian Stewart, Shivam Sharma, Sarthak Chaturvedi, Mike Parker, Dan Nally, ..., Sameera Horawalavithana, Anurag Acharya",
+      "venue": "Workshop on Large Language Models for Scientific and Societal Advances (SciSoc LLM), 2025 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
       "year": 2024,
       "citations": 19,
       "url": "",
@@ -109,8 +109,8 @@
     },
     {
       "title": "Empirical Evaluation of Uncertainty Quantification in Retrieval-Augmented Language Models for Science",
-      "authors": "Shivam Wagle, Sai Munikoti, Anurag Acharya, Sara Smith, Sameera Horawalavithana",
-      "venue": "arXiv preprint",
+      "authors": "Sridevi Wagle, Sai Munikoti, Anurag Acharya, Sara Smith, Sameera Horawalavithana",
+      "venue": "Scientific Document Understanding, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
       "citations": 9,
       "url": "",
@@ -121,8 +121,8 @@
     },
     {
       "title": "ATLANTIC: Structure-Aware Retrieval-Augmented Language Model for Interdisciplinary Science",
-      "authors": "Sai Munikoti, Anurag Acharya, Shivam Wagle, Sameera Horawalavithana",
-      "venue": "arXiv preprint",
+      "authors": "Sai Munikoti, Anurag Acharya, Sridevi Wagle, Sameera Horawalavithana",
+      "venue": "AI to Accelerate Science and Engineering, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
       "citations": 29,
       "url": "",
