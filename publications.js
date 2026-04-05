@@ -34,8 +34,8 @@ var PUBLICATIONS_DATA = {
     },
     {
       "title": "Leveraging Multimodal AI for Efficient Data Discovery in Wind Energy Research",
-      "authors": "Shivam Wagle, Sai Munikoti, Rounak Meyur, Jonathan Whiting, Hayley Farr, Anurag Acharya, Sameera Horawalavithana",
-      "venue": "",
+      "authors": "Shivam Wagle, Sai Munikoti, Rounak Meyur, Jonathan Whiting, Hayley Farr, Anurag Acharya, Yasanka S Horawalavithana, Lynne Fierce",
+      "venue": "Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration (pp. 1-3)",
       "year": 2025,
       "citations": 1,
       "url": "",
@@ -50,32 +50,30 @@ var PUBLICATIONS_DATA = {
     {
       "title": "Evaluating the Robustness of Dense Retrievers in Interdisciplinary Domains",
       "authors": "Sarthak Chaturvedi, Anurag Acharya, Rounak Meyur, Koby Hayashi, Sai Munikoti, Sameera Horawalavithana",
-      "venue": "arXiv preprint",
+      "venue": "KDD Workshop on Evaluation and Trustworthiness of Agentic and Generative AI Models",
       "year": 2025,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
       "topics": [
-        "ai-science"
+        "ai-permitting"
       ],
       "scholarUrl": "https://scholar.google.com/scholar?q=Evaluating+the+Robustness+of+Dense+Retrievers+in+Interdisciplinary+Domains",
       "firstAuthor": "Sarthak Chaturvedi",
       "lastAuthor": "Sameera Horawalavithana"
     },
     {
-      "title": "PermitQA: A Benchmark for Retrieval Augmented Generation in Wind Siting and Permitting Domain",
-      "authors": "Rounak Meyur, Hung Phan, Shivam Wagle, Jan Strube, Mahantesh Halappanavar, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "arXiv preprint",
-      "year": 2024,
-      "citations": 6,
-      "url": "",
+      "title": "NEPATEC v2.0: Standardized Metadata and Text Corpus of National Environmental Policy Act Documents",
+      "authors": "Sai Munikoti, Daniel M Nally, Sai D Koneru, Siddhartha Shankar Das, Kaustav Bhattacharjee, Alexander C Buchko, Taylor C Edwards, Kathy Nwe, Siddhisanket Raskar, Paul M Rigor, Micah S Taylor, Scott T Spare, Derek B Lilienthal, Mahantesh M Halappanavar, Anurag Acharya, Timothy J Vega, Michael J Parker, Anastasia Bernat, Yasanka S Horawalavithana",
+      "venue": "Pacific Northwest National Laboratory (PNNL), Richland, WA",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://www.osti.gov/biblio/2584716",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
       ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=PermitQA:+A+Benchmark+for+Retrieval+Augmented+Generation+in+Wind+Siting+and+Permitting+Domain",
-      "firstAuthor": "Rounak Meyur",
-      "lastAuthor": "Sai Munikoti"
+      "scholarUrl": "https://www.osti.gov/biblio/2584716"
     },
     {
       "title": "WeQA: A Benchmark for Retrieval Augmented Generation in Wind Energy Domain",
@@ -123,21 +121,6 @@ var PUBLICATIONS_DATA = {
       "lastAuthor": "Sai Munikoti"
     },
     {
-      "title": "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
-      "authors": "Ian Stewart, Sameera Horawalavithana, Brendan Kennedy, Sai Munikoti, Karl Pazdernik",
-      "venue": "arXiv preprint",
-      "year": 2024,
-      "citations": 5,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Surprisingly+Fragile:+Assessing+and+Addressing+Prompt+Instability+in+Multimodal+Foundation+Models",
-      "firstAuthor": "Ian Stewart",
-      "lastAuthor": "Karl Pazdernik"
-    },
-    {
       "title": "Modeling Information Diffusion in Social Media: Data-Driven Observations",
       "authors": "Adriana Iamnitchi, Lawrence O. Hall, Sameera Horawalavithana, Frederick Mubang, Nazim Choudhury",
       "venue": "Frontiers in Big Data",
@@ -146,7 +129,7 @@ var PUBLICATIONS_DATA = {
       "url": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191",
       "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191/pdf",
       "topics": [
-        "ai-science"
+        "ai-simulation"
       ],
       "scholarUrl": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191",
       "firstAuthor": "Adriana Iamnitchi",
@@ -155,7 +138,7 @@ var PUBLICATIONS_DATA = {
     {
       "title": "Empirical Evaluation of Uncertainty Quantification in Retrieval-Augmented Language Models for Science",
       "authors": "Shivam Wagle, Sai Munikoti, Anurag Acharya, Sara Smith, Sameera Horawalavithana",
-      "venue": "arXiv preprint",
+      "venue": "Scientific Document Understanding, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
       "citations": 9,
       "url": "",
@@ -170,7 +153,7 @@ var PUBLICATIONS_DATA = {
     {
       "title": "ATLANTIC: Structure-Aware Retrieval-Augmented Language Model for Interdisciplinary Science",
       "authors": "Sai Munikoti, Anurag Acharya, Shivam Wagle, Sameera Horawalavithana",
-      "venue": "arXiv preprint",
+      "venue": "AI to Accelerate Science and Engineering, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
       "citations": 29,
       "url": "",
@@ -281,7 +264,7 @@ var PUBLICATIONS_DATA = {
       "url": "",
       "pdfUrl": "",
       "topics": [
-        "ai-science"
+        "ai-simulation"
       ],
       "scholarUrl": "https://scholar.google.com/scholar?q=Social+Media+Activity+Forecasting+with+Exogenous+and+Endogenous+Signals",
       "firstAuthor": "Kin Wai Ng",
@@ -326,7 +309,7 @@ var PUBLICATIONS_DATA = {
       "url": "",
       "pdfUrl": "",
       "topics": [
-        "ai-science"
+        "ai-simulation"
       ],
       "scholarUrl": "https://scholar.google.com/scholar?q=Forecasting+Topic+Activity+with+Exogenous+and+Endogenous+Information+Signals+in+Twitter",
       "firstAuthor": "Kin Wai Ng",
@@ -341,7 +324,7 @@ var PUBLICATIONS_DATA = {
       "url": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
       "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
       "topics": [
-        "ai-science"
+        "ai-simulation"
       ],
       "scholarUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
       "firstAuthor": "Sameera Horawalavithana",
@@ -402,7 +385,7 @@ var PUBLICATIONS_DATA = {
       "url": "",
       "pdfUrl": "",
       "topics": [
-        "ai-science"
+        "ai-simulation"
       ],
       "scholarUrl": "https://scholar.google.com/scholar?q=Cascade-LSTM:+Predicting+Information+Cascades+Using+Deep+Neural+Networks",
       "firstAuthor": "Sameera Horawalavithana",
@@ -432,7 +415,7 @@ var PUBLICATIONS_DATA = {
       "url": "",
       "pdfUrl": "",
       "topics": [
-        "ai-science"
+        "ai-simulation"
       ],
       "scholarUrl": "https://scholar.google.com/scholar?q=Predicting+Longitudinal+User+Activity+at+Fine+Time+Granularity+in+Online+Collaborative+Platforms",
       "firstAuthor": "Renhao Liu",
@@ -447,7 +430,7 @@ var PUBLICATIONS_DATA = {
       "url": "https://doi.org/10.3389/fdata.2019.00021",
       "pdfUrl": "https://doi.org/10.3389/fdata.2019.00021",
       "topics": [
-        "ai-science"
+        "ai-simulation"
       ],
       "scholarUrl": "https://doi.org/10.3389/fdata.2019.00021",
       "firstAuthor": "Essa Alhazmi",
@@ -514,36 +497,6 @@ var PUBLICATIONS_DATA = {
       "lastAuthor": "Adriana Iamnitchi"
     },
     {
-      "title": "A Weighted Network Analysis of User Migrations in a Social Network",
-      "authors": "Malith Senaweera, Ruchira Dissanayake, Nuwini Chamindi, Anupa Shyamalal, Charitha Elvitigala, Sameera Horawalavithana",
-      "venue": "International Conference on Advances in ICT for Emerging Regions (ICTer) 2018",
-      "year": 2018,
-      "citations": 11,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=A+Weighted+Network+Analysis+of+User+Migrations+in+a+Social+Network",
-      "firstAuthor": "Malith Senaweera",
-      "lastAuthor": "Sameera Horawalavithana"
-    },
-    {
-      "title": "The Influence of Community Interactions on User Affinity in Social Networks: A Facebook Case Study",
-      "authors": "Malith Senaweera, Ruchira Dissanayake, Nuwini Chamindi, Anupa Shyamlal, Charitha Elvitigala, Sameera Horawalavithana",
-      "venue": "National Information Technology Conference (NITC) 2018",
-      "year": 2018,
-      "citations": 3,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=The+Influence+of+Community+Interactions+on+User+Affinity+in+Social+Networks:+A+Facebook+Case+Study",
-      "firstAuthor": "Malith Senaweera",
-      "lastAuthor": "Sameera Horawalavithana"
-    },
-    {
       "title": "An Empirical Study on Team Formation in Online Games",
       "authors": "Essa Alhazmi, Sameera Horawalavithana, John Skvoretz, Jeremy Blackburn, Adriana Iamnitchi",
       "venue": "International Conference on Advances in Social Networks Analysis and Mining (ASONAM) 2017",
@@ -552,7 +505,7 @@ var PUBLICATIONS_DATA = {
       "url": "https://arxiv.org/abs/1708.03015",
       "pdfUrl": "https://arxiv.org/pdf/1708.03015",
       "topics": [
-        "ai-science"
+        "ai-simulation"
       ],
       "scholarUrl": "https://arxiv.org/abs/1708.03015",
       "firstAuthor": "Essa Alhazmi",
@@ -562,7 +515,7 @@ var PUBLICATIONS_DATA = {
       "title": "NEPATEC 1.0: First Large-Scale Text Corpus of National Environmental Policy Act PDF Documents",
       "authors": "Shivam Sharma, Dan Nally, Mike Parker, Sai Munikoti, Sameera Horawalavithana",
       "venue": "",
-      "year": null,
+      "year": 2023,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
@@ -605,9 +558,9 @@ var PUBLICATIONS_DATA = {
     },
     {
       "title": "DraftNEPABench: A Benchmark for Drafting NEPA Document Sections with Coding Agents",
-      "authors": "Anurag Acharya, Bishal Lakha, Rounak Meyur, Rohan Nuttall, Sarthak Chaturvedi, Anika Tabassum, Sameera Horawalavithana, Sai Munikoti",
+      "authors": "Anurag Acharya, Bishal Lakha, Rounak Meyur, Rohan Nuttall, Sarthak Chaturvedi, Anika Halappanavar, Leah Hare, Lin Zeng, Mike Parker, Sai Munikoti, Sameera Horawalavithana",
       "venue": "",
-      "year": null,
+      "year": 2026,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
@@ -616,52 +569,7 @@ var PUBLICATIONS_DATA = {
       ],
       "scholarUrl": "https://scholar.google.com/scholar?q=DraftNEPABench:+A+Benchmark+for+Drafting+NEPA+Document+Sections+with+Coding+Agents",
       "firstAuthor": "Anurag Acharya",
-      "lastAuthor": "Sai Munikoti"
-    },
-    {
-      "title": "The PermitAI Application Suite and GeoAI Testbed for Accelerating Permitting",
-      "authors": "Anastasia Bernat, Heng Wan, Cleve Davis, Anusha Devulapally, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "AGU25",
-      "year": 2025,
-      "citations": 0,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=The+PermitAI+Application+Suite+and+GeoAI+Testbed+for+Accelerating+Permitting",
-      "firstAuthor": "Anastasia Bernat",
-      "lastAuthor": "Sai Munikoti"
-    },
-    {
-      "title": "Building the Foundation for Georeferencing: A Preprocessing Workflow for NEPA Map Images",
-      "authors": "Heng Wan, Anusha Devulapally, Sridevi Wagle, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "AGU25",
-      "year": 2025,
-      "citations": 0,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Building+the+Foundation+for+Georeferencing:+A+Preprocessing+Workflow+for+NEPA+Map+Images",
-      "firstAuthor": "Heng Wan",
-      "lastAuthor": "Sai Munikoti"
-    },
-    {
-      "title": "Cross-Modal Validation and Refinement for Scalable Digitization of NEPA Map Features",
-      "authors": "Anusha Devulapally, Heng Wan, Cleve Davis, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "AGU25",
-      "year": 2025,
-      "citations": 0,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Cross-Modal+Validation+and+Refinement+for+Scalable+Digitization+of+NEPA+Map+Features",
-      "firstAuthor": "Anusha Devulapally",
-      "lastAuthor": "Sai Munikoti"
+      "lastAuthor": "Sameera Horawalavithana"
     }
   ],
   "technicalReports": [
@@ -738,6 +646,7 @@ var PUBLICATIONS_DATA = {
     { key: 'ai-science',           label: 'AI for Science' },
     { key: 'ai-permitting',        label: 'AI for Permitting' },
     { key: 'ai-national-security', label: 'AI for National Security' },
+    { key: 'ai-simulation',        label: 'AI + Simulation' },
     { key: 'misc',                 label: 'Miscellaneous' }
   ];
 
