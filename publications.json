@@ -422,12 +422,12 @@
     },
     {
       "title": "NEPATEC v2.0: Standardized Metadata and Text Corpus of National Environmental Policy Act Documents",
-      "authors": "Shivam Sharma, Dan Nally, Mike Parker, Sai Munikoti, Sameera Horawalavithana",
-      "venue": "",
+      "authors": "Sai Munikoti, Daniel M Nally, Sai D Koneru, ..., Yasanka S Horawalavithana",
+      "venue": "Pacific Northwest National Laboratory (PNNL), Technical Report PNNL--38163",
       "year": 2025,
       "citations": 0,
-      "url": "",
-      "pdfUrl": "",
+      "url": "https://www.osti.gov/servlets/purl/2584716",
+      "pdfUrl": "https://www.osti.gov/servlets/purl/2584716",
       "topics": [
         "ai-permitting"
       ]
