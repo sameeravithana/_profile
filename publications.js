@@ -7,6 +7,7 @@ var PUBLICATIONS_DATA = {"lastUpdated":"2026-04-05","scholarUrl":"https://schola
     { key: 'ai-science',           label: 'AI for Science' },
     { key: 'ai-permitting',        label: 'AI for Permitting' },
     { key: 'ai-national-security', label: 'AI for National Security' },
+    { key: 'ai-simulation',        label: 'AI + Simulation' },
     { key: 'misc',                 label: 'Miscellaneous' }
   ];
 
