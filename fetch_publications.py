@@ -9,10 +9,11 @@ Usage:
     pip install scholarly
     python fetch_publications.py
 
-The script ONLY updates the `publications` array's citation counts and adds
-any new papers it finds that are not already in publications.json.
-It never removes papers, and it never overwrites topic/tag assignments you
-have made by hand.
+The script ONLY updates citation counts and adds genuinely new papers.
+It NEVER:
+  - removes papers that already exist in publications.json
+  - overwrites authors, venue, or pdfUrl for existing papers
+  - re-adds papers listed in the "removed_titles" array in publications.json
 
 New papers that are not yet in publications.json are appended to the end of
 the list with empty topics/tags so you can categorize them yourself.
@@ -81,29 +82,51 @@ def fetch_from_scholar(scholar_id: str) -> list[dict]:
 def merge(existing: dict, fresh: list[dict]) -> dict:
     """
     Merge freshly-fetched papers into the existing publications.json structure.
+
+    Rules:
     - Updates citation counts for known papers.
+    - Updates URL only if the existing entry has none.
+    - NEVER overwrites: authors, venue, pdfUrl for existing papers.
     - Appends genuinely new papers (unmatched by title) with empty topics/tags.
-    - Preserves all hand-authored fields (topics, tags, award, pdfUrl when local).
+    - Skips papers whose normalized title appears in removed_titles.
+    - Preserves all other hand-authored fields (topics, tags, awards, etc.).
     """
     existing_pubs = existing.get("publications", [])
     existing_by_norm = {normalize(p["title"]): p for p in existing_pubs}
 
+    # Build a set of normalized titles that have been manually removed
+    removed_titles_raw = existing.get("removed_titles", [])
+    removed_norm = {normalize(t) for t in removed_titles_raw}
+
     updated = 0
     added = 0
+    skipped_removed = 0
     new_entries = []
 
     for fp in fresh:
         key = normalize(fp["title"])
+
+        # Skip papers that were manually removed
+        if key in removed_norm:
+            skipped_removed += 1
+            continue
+
         if key in existing_by_norm:
             ep = existing_by_norm[key]
+
+            # Only update citation count
             if ep.get("citations", 0) != fp["citations"]:
                 ep["citations"] = fp["citations"]
                 updated += 1
+
             # Update URL only if the existing one is empty
             if not ep.get("url") and fp.get("url"):
                 ep["url"] = fp["url"]
+
+            # NEVER overwrite: authors, venue, pdfUrl — these are curated manually
+
         else:
-            # New paper — append without overwriting existing topics/tags
+            # New paper — append with empty topics/tags for manual categorization
             new_entries.append(
                 {
                     "title": fp["title"],
@@ -122,9 +145,14 @@ def merge(existing: dict, fresh: list[dict]) -> dict:
     existing["publications"] = existing_pubs + new_entries
     existing["lastUpdated"] = str(date.today())
 
-    print(f"\nMerge complete: {updated} citation(s) updated, {added} new paper(s) added.")
+    print(f"\nMerge complete:")
+    print(f"  {updated} citation(s) updated")
+    print(f"  {added} new paper(s) added")
+    if skipped_removed:
+        print(f"  {skipped_removed} manually-removed paper(s) skipped")
+
     if new_entries:
-        print("New papers (please add topics/tags in publications.json):")
+        print("\nNew papers (please add topics/tags in publications.json):")
         for p in new_entries:
             print(f"  [{p['year']}] {p['title']}")
 
@@ -142,22 +170,26 @@ def main():
 
     merged = merge(existing, fresh)
 
+    # Write publications.json with readable indentation
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(merged, f, indent=2, ensure_ascii=False)
 
-    print(f"publications.json written ({JSON_PATH})")
+    print(f"\npublications.json written ({JSON_PATH})")
 
-    # Re-embed the data into publications.js so the site works without a server
+    # Re-embed the data into publications.js using compact JSON (no extra whitespace)
     js_path = JSON_PATH.parent / "publications.js"
     if js_path.exists():
         js_text = js_path.read_text(encoding="utf-8")
-        data_line = "var PUBLICATIONS_DATA = " + json.dumps(merged, indent=2, ensure_ascii=False) + ";\n\n"
-        # Replace everything before the first (function block
+        data_json = json.dumps(merged, separators=(",", ":"), ensure_ascii=False)
+        data_line = "var PUBLICATIONS_DATA = " + data_json + ";\n\n"
+        # Replace the existing data block — everything before the first (function block
         iife_start = js_text.find("(function")
         if iife_start != -1:
             js_text = data_line + js_text[iife_start:]
             js_path.write_text(js_text, encoding="utf-8")
             print(f"publications.js updated with embedded data ({js_path})")
+        else:
+            print("Warning: could not find IIFE in publications.js — skipping JS update")
 
 
 if __name__ == "__main__":

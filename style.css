@@ -305,3 +305,22 @@ td.logo {
 .pub-toggle:hover {
 	text-decoration: underline;
 }
+
+/* Year navigation and per-year collapse/expand */
+.year-nav {
+	margin: 0.5em 0 0.8em -0.5em;
+}
+.year-nav-btn {
+	display: inline-block;
+	margin-right: 0.5em;
+	padding: 0.25em 0.6em;
+	background: transparent;
+	border: 1px solid transparent;
+	color: #336ECC;
+	cursor: pointer;
+}
+.year-nav-btn:hover { text-decoration: underline; color: #0062FF; }
+.year-header { display: flex; align-items: center; justify-content: space-between; margin-top: 0.6em; }
+.year-header h3 { margin: 0; }
+.year-toggle { background: transparent; border: none; color: #336ECC; cursor: pointer; font-size: 1.1em; }
+.year-content .ref { padding: 0.25em 0; }

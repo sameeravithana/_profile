@@ -1,6 +1,15 @@
 {
   "lastUpdated": "2026-04-05",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
+  "removed_titles": [
+    "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
+    "PermitQA: A Benchmark for Retrieval Augmented Generation in Wind Siting and Permitting Domain",
+    "A Weighted Network Analysis of User Migrations in a Social Network",
+    "The Influence of Community Interactions on User Affinity in Social Networks: A Facebook Case Study",
+    "The PermitAI Application Suite and GeoAI Testbed for Accelerating Permitting",
+    "Building the Foundation for Georeferencing: A Preprocessing Workflow for NEPA Map Images",
+    "Cross-Modal Validation and Refinement for Scalable Digitization of NEPA Map Features"
+  ],
   "publications": [
     {
       "title": "Generalist Multimodal AI: A Review of Architectures, Challenges and Opportunities",
