@@ -1,0 +1,62 @@
+name: Update Publications
+
+on:
+  schedule:
+    # Runs every Sunday at 02:00 UTC
+    - cron: "0 2 * * 0"
+  workflow_dispatch:   # allows manual trigger from the Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install scholarly
+        run: pip install scholarly
+
+      - name: Fetch latest publications
+        run: python fetch_publications.py
+
+      - name: Create PR if changes exist
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add publications.json publications.js
+
+          if git diff --cached --quiet; then
+            echo "No changes to publications.json"
+          else
+            # Create a new branch for the changes
+            BRANCH_NAME="auto/update-publications-$(date +%Y%m%d-%H%M%S)"
+            git checkout -b "$BRANCH_NAME"
+            git commit -m "Auto-update publications from Google Scholar"
+            git push origin "$BRANCH_NAME"
+
+            # Create a pull request using GitHub CLI
+            gh pr create \
+              --base gh-pages \
+              --head "$BRANCH_NAME" \
+              --title "Auto-update: Publications from Google Scholar" \
+              --body "This PR updates publication data from your Google Scholar profile.
+
+## Changes
+- Updated citation counts
+- Added new publications (if any)
+
+Please review and merge if everything looks good."
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

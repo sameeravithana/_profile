@@ -227,20 +227,96 @@ td.logo {
 	font-style: italic;
 }
 
-.ref-list {
-    display: table;
-    padding-left: 0.8em;
+.pub-list-apa {
+    margin-left: 0;
+    padding-left: 0;
 }
 
-.ref {
-    display: table-row;
+.pub-entry-apa {
+    margin-bottom: 1em;
+    padding-left: 2em;
+    text-indent: -2em;
+    line-height: 1.5em;
 }
 
-.ref-num {
-    display: table-cell;
-    padding-right: 0.5em;
+/* ── Publication tabs ─────────────────────────────────────── */
+.pub-tabs {
+    border-bottom: 1px solid #CCC;
+    margin: 0.5em 0 0.8em -0.5em;
+    padding-left: 0;
+    line-height: 1;
 }
 
-.ref-entry {
-    display: table-cell;
+.pub-tab {
+    display: inline-block;
+    padding: 0.4em 0.85em;
+    cursor: pointer;
+    color: #336ECC;
+    font-size: 1em;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom: none;
+    margin-bottom: -1px;
+    position: relative;
+    text-decoration: none;
+}
+
+.pub-tab:hover {
+    color: #0062FF;
+    text-decoration: underline;
+}
+
+.pub-tab.active {
+    background: #fff;
+    border-color: #CCC;
+    border-bottom-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+/* ── Year filter buttons ──────────────────────────────────────── */
+.pub-year-filter {
+    margin: 0.5em 0 0.9em 0;
+    padding: 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+
+.year-btn {
+    padding: 0.25em 0.6em;
+    border: 1px solid #999;
+    border-radius: 3px;
+    color: #336ECC;
+    background: #f5f5f5;
+    font-size: 0.9em;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.year-btn:hover {
+    border-color: #0062FF;
+    color: #0062FF;
+    background: #e8f0fb;
+}
+
+.year-btn.active {
+    background: #0062FF;
+    border-color: #0062FF;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* ── Per-entry extras ─────────────────────────────────────── */
+.pub-award {
+    color: #2a7a2a;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.pub-pdf-link {
+    font-size: 0.85em;
+    margin-left: 0.3em;
 }
