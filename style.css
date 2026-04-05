@@ -336,3 +336,22 @@ td.logo {
     color: #fff;
     font-weight: bold;
 }
+
+/* ── Publication entry list (APA style) ───────────────────── */
+.pub-list-apa {
+    margin: 0;
+    padding: 0;
+}
+
+.pub-entry-apa {
+    padding-left: 2em;
+    text-indent: -2em;
+    margin-bottom: 1em;
+    line-height: 1.55em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.75em;
+}
+
+.pub-entry-apa:last-child {
+    border-bottom: none;
+}
