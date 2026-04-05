@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -30,33 +29,14 @@ jobs:
       - name: Fetch latest publications
         run: python fetch_publications.py
 
-      - name: Create PR if changes exist
+      - name: Commit updated publications.json (if changed)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add publications.json publications.js
-
           if git diff --cached --quiet; then
             echo "No changes to publications.json"
           else
-            # Create a new branch for the changes
-            BRANCH_NAME="auto/update-publications-$(date +%Y%m%d-%H%M%S)"
-            git checkout -b "$BRANCH_NAME"
-            git commit -m "Auto-update publications from Google Scholar"
-            git push origin "$BRANCH_NAME"
-
-            # Create a pull request using GitHub CLI
-            gh pr create \
-              --base gh-pages \
-              --head "$BRANCH_NAME" \
-              --title "Auto-update: Publications from Google Scholar" \
-              --body "This PR updates publication data from your Google Scholar profile.
-
-## Changes
-- Updated citation counts
-- Added new publications (if any)
-
-Please review and merge if everything looks good."
+            git commit -m "Auto-update publications from Google Scholar [skip ci]"
+            git push
           fi
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -227,16 +227,22 @@ td.logo {
 	font-style: italic;
 }
 
-.pub-list-apa {
-    margin-left: 0;
-    padding-left: 0;
+.ref-list {
+    display: table;
+    padding-left: 0.8em;
 }
 
-.pub-entry-apa {
-    margin-bottom: 1em;
-    padding-left: 2em;
-    text-indent: -2em;
-    line-height: 1.5em;
+.ref {
+    display: table-row;
+}
+
+.ref-num {
+    display: table-cell;
+    padding-right: 0.5em;
+}
+
+.ref-entry {
+    display: table-cell;
 }
 
 /* ── Publication tabs ─────────────────────────────────────── */
@@ -275,40 +281,6 @@ td.logo {
     font-weight: bold;
 }
 
-/* ── Year filter buttons ──────────────────────────────────────── */
-.pub-year-filter {
-    margin: 0.5em 0 0.9em 0;
-    padding: 0.5em 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4em;
-}
-
-.year-btn {
-    padding: 0.25em 0.6em;
-    border: 1px solid #999;
-    border-radius: 3px;
-    color: #336ECC;
-    background: #f5f5f5;
-    font-size: 0.9em;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    cursor: pointer;
-    transition: all 0.15s ease;
-}
-
-.year-btn:hover {
-    border-color: #0062FF;
-    color: #0062FF;
-    background: #e8f0fb;
-}
-
-.year-btn.active {
-    background: #0062FF;
-    border-color: #0062FF;
-    color: #fff;
-    font-weight: bold;
-}
-
 /* ── Per-entry extras ─────────────────────────────────────── */
 .pub-award {
     color: #2a7a2a;
@@ -319,4 +291,17 @@ td.logo {
 .pub-pdf-link {
     font-size: 0.85em;
     margin-left: 0.3em;
+}
+
+/* Toggle button for publications list (Show all / Show fewer) */
+.pub-toggle {
+	background: transparent;
+	border: none;
+	color: #336ECC;
+	cursor: pointer;
+	font-size: 0.95em;
+	padding: 0.15em 0.4em;
+}
+.pub-toggle:hover {
+	text-decoration: underline;
 }

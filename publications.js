@@ -12,10 +12,7 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Generalist+Multimodal+AI:+A+Review+of+Architectures,+Challenges+and+Opportunities",
-      "firstAuthor": "Sai Munikoti",
-      "lastAuthor": "Karl Pazdernik"
+      ]
     },
     {
       "title": "Audit, Alignment, and Optimization of LM-Powered Subroutines with Application to Public Comment Processing",
@@ -27,53 +24,43 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Audit,+Alignment,+and+Optimization+of+LM-Powered+Subroutines+with+Application+to+Public+Comment+Processing",
-      "firstAuthor": "Reilly Raab",
-      "lastAuthor": "Sameera Horawalavithana"
+      ]
     },
     {
       "title": "Leveraging Multimodal AI for Efficient Data Discovery in Wind Energy Research",
-      "authors": "Shivam Wagle, Sai Munikoti, Rounak Meyur, Jonathan Whiting, Hayley Farr, Anurag Acharya, Yasanka S Horawalavithana, Lynne Fierce",
-      "venue": "Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration (pp. 1-3)",
+      "authors": "Shivam Wagle, Sai Munikoti, Rounak Meyur, Jonathan Whiting, Hayley Farr, Anurag Acharya, Sameera Horawalavithana",
+      "venue": "",
       "year": 2025,
       "citations": 1,
       "url": "",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Leveraging+Multimodal+AI+for+Efficient+Data+Discovery+in+Wind+Energy+Research",
-      "firstAuthor": "Shivam Wagle",
-      "lastAuthor": "Sameera Horawalavithana"
+      ]
     },
     {
       "title": "Evaluating the Robustness of Dense Retrievers in Interdisciplinary Domains",
       "authors": "Sarthak Chaturvedi, Anurag Acharya, Rounak Meyur, Koby Hayashi, Sai Munikoti, Sameera Horawalavithana",
-      "venue": "KDD Workshop on Evaluation and Trustworthiness of Agentic and Generative AI Models",
+      "venue": "arXiv preprint",
       "year": 2025,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
       "topics": [
-        "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Evaluating+the+Robustness+of+Dense+Retrievers+in+Interdisciplinary+Domains",
-      "firstAuthor": "Sarthak Chaturvedi",
-      "lastAuthor": "Sameera Horawalavithana"
+        "ai-science"
+      ]
     },
     {
-      "title": "NEPATEC v2.0: Standardized Metadata and Text Corpus of National Environmental Policy Act Documents",
-      "authors": "Sai Munikoti, Daniel M Nally, Sai D Koneru, Siddhartha Shankar Das, Kaustav Bhattacharjee, Alexander C Buchko, Taylor C Edwards, Kathy Nwe, Siddhisanket Raskar, Paul M Rigor, Micah S Taylor, Scott T Spare, Derek B Lilienthal, Mahantesh M Halappanavar, Anurag Acharya, Timothy J Vega, Michael J Parker, Anastasia Bernat, Yasanka S Horawalavithana",
-      "venue": "Pacific Northwest National Laboratory (PNNL), Richland, WA",
-      "year": 2025,
-      "citations": 0,
-      "url": "https://www.osti.gov/biblio/2584716",
+      "title": "PermitQA: A Benchmark for Retrieval Augmented Generation in Wind Siting and Permitting Domain",
+      "authors": "Rounak Meyur, Hung Phan, Shivam Wagle, Jan Strube, Mahantesh Halappanavar, Sameera Horawalavithana, Sai Munikoti",
+      "venue": "arXiv preprint",
+      "year": 2024,
+      "citations": 6,
+      "url": "",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ],
-      "scholarUrl": "https://www.osti.gov/biblio/2584716"
+      ]
     },
     {
       "title": "WeQA: A Benchmark for Retrieval Augmented Generation in Wind Energy Domain",
@@ -85,10 +72,7 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=WeQA:+A+Benchmark+for+Retrieval+Augmented+Generation+in+Wind+Energy+Domain",
-      "firstAuthor": "Rounak Meyur",
-      "lastAuthor": "Sai Munikoti"
+      ]
     },
     {
       "title": "SCITUNE: Aligning Large Language Models with Human-Curated Scientific Multimodal Instructions",
@@ -100,10 +84,7 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=SCITUNE:+Aligning+Large+Language+Models+with+Human-Curated+Scientific+Multimodal+Instructions",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Karl Pazdernik"
+      ]
     },
     {
       "title": "Benchmarking LLMs for Environmental Review and Permitting",
@@ -115,10 +96,19 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Benchmarking+LLMs+for+Environmental+Review+and+Permitting",
-      "firstAuthor": "Hung Phan",
-      "lastAuthor": "Sai Munikoti"
+      ]
+    },
+    {
+      "title": "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
+      "authors": "Ian Stewart, Sameera Horawalavithana, Brendan Kennedy, Sai Munikoti, Karl Pazdernik",
+      "venue": "arXiv preprint",
+      "year": 2024,
+      "citations": 5,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-science"
+      ]
     },
     {
       "title": "Modeling Information Diffusion in Social Media: Data-Driven Observations",
@@ -129,41 +119,32 @@ var PUBLICATIONS_DATA = {
       "url": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191",
       "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191/pdf",
       "topics": [
-        "ai-simulation"
-      ],
-      "scholarUrl": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191",
-      "firstAuthor": "Adriana Iamnitchi",
-      "lastAuthor": "Nazim Choudhury"
+        "ai-science"
+      ]
     },
     {
       "title": "Empirical Evaluation of Uncertainty Quantification in Retrieval-Augmented Language Models for Science",
       "authors": "Shivam Wagle, Sai Munikoti, Anurag Acharya, Sara Smith, Sameera Horawalavithana",
-      "venue": "Scientific Document Understanding, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
+      "venue": "arXiv preprint",
       "year": 2023,
       "citations": 9,
       "url": "",
       "pdfUrl": "",
       "topics": [
         "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Empirical+Evaluation+of+Uncertainty+Quantification+in+Retrieval-Augmented+Language+Models+for+Science",
-      "firstAuthor": "Shivam Wagle",
-      "lastAuthor": "Sameera Horawalavithana"
+      ]
     },
     {
       "title": "ATLANTIC: Structure-Aware Retrieval-Augmented Language Model for Interdisciplinary Science",
       "authors": "Sai Munikoti, Anurag Acharya, Shivam Wagle, Sameera Horawalavithana",
-      "venue": "AI to Accelerate Science and Engineering, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
+      "venue": "arXiv preprint",
       "year": 2023,
       "citations": 29,
       "url": "",
       "pdfUrl": "",
       "topics": [
         "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=ATLANTIC:+Structure-Aware+Retrieval-Augmented+Language+Model+for+Interdisciplinary+Science",
-      "firstAuthor": "Sai Munikoti",
-      "lastAuthor": "Sameera Horawalavithana"
+      ]
     },
     {
       "title": "Evaluating the Effectiveness of Retrieval-Augmented Large Language Models in Scientific Document Reasoning",
@@ -175,267 +156,14 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Evaluating+the+Effectiveness+of+Retrieval-Augmented+Large+Language+Models+in+Scientific+Document+Reasoning",
-      "firstAuthor": "Sai Munikoti",
-      "lastAuthor": "Sameera Horawalavithana"
+      ]
     },
     {
       "title": "Anticipating Technical Expertise and Capability Evolution in Research Communities Using Dynamic Graph Transformers",
       "authors": "Sameera Horawalavithana, Ellyn Ayton, Anastasiya Usenko, Robin Cosbey, Svitlana Volkova",
       "venue": "IEEE Transactions on Computational Social Systems",
       "year": 2023,
-      "citations": 2,
-      "url": "",
-      "pdfUrl": "https://arxiv.org/pdf/2307.09665",
-      "topics": [
-        "ai-national-security"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Anticipating+Technical+Expertise+and+Capability+Evolution+in+Research+Communities+Using+Dynamic+Graph+Transformers",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Svitlana Volkova"
-    },
-    {
-      "title": "NuclearQA: A Human-Made Benchmark for Language Models for the Nuclear Domain",
-      "authors": "Anurag Acharya, Sai Munikoti, Aaron Hellinger, Sara Smith, Shivam Wagle, Sameera Horawalavithana",
-      "venue": "arXiv preprint",
-      "year": 2023,
-      "citations": 11,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-national-security"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=NuclearQA:+A+Human-Made+Benchmark+for+Language+Models+for+the+Nuclear+Domain",
-      "firstAuthor": "Anurag Acharya",
-      "lastAuthor": "Sameera Horawalavithana"
-    },
-    {
-      "title": "Foundation Models of Scientific Knowledge for Chemistry: Opportunities, Challenges and Lessons Learned",
-      "authors": "Sameera Horawalavithana, Ellyn Ayton, Shivam Sharma, Scott Howland, Megha Subramanian, Scott Vasquez, Robin Cosbey, Maria Glenski, Svitlana Volkova",
-      "venue": "BigScience #5, Challenges & Perspectives in Creating Large Language Models, ACL 2022",
-      "year": 2022,
-      "citations": 36,
-      "url": "https://aclanthology.org/2022.bigscience-1.12",
-      "pdfUrl": "https://aclanthology.org/2022.bigscience-1.12.pdf",
-      "topics": [
-        "ai-science"
-      ],
-      "scholarUrl": "https://aclanthology.org/2022.bigscience-1.12",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Svitlana Volkova"
-    },
-    {
-      "title": "Lessons from Developing Multimodal Models with Code and Developer Interactions",
-      "authors": "Nicholas Botzer, Sameera Horawalavithana, Tim Weninger, Svitlana Volkova",
-      "venue": "NeurIPS Workshop",
-      "year": 2022,
-      "citations": 0,
-      "url": "dl/28_lessons_from_developing_multim.pdf",
-      "pdfUrl": "dl/28_lessons_from_developing_multim.pdf",
-      "topics": [
-        "ai-science"
-      ],
-      "scholarUrl": "dl/28_lessons_from_developing_multim.pdf",
-      "firstAuthor": "Nicholas Botzer",
-      "lastAuthor": "Svitlana Volkova"
-    },
-    {
-      "title": "EXPERT: Public Benchmarks for Dynamic Heterogeneous Academic Graphs",
-      "authors": "Sameera Horawalavithana, Ellyn Ayton, Anastasiya Usenko, Robin Cosbey, Shivam Sharma, Jasmine Eshun, Maria Glenski, Svitlana Volkova",
-      "venue": "Graph Learning Benchmark Workshop, The Web Conference 2022",
-      "year": 2022,
-      "citations": 3,
-      "url": "https://graph-learning-benchmarks.github.io/assets/papers/glb2022/EXPERT_Public_Benchmarks_for_Dynamic_Heterogeneous_Academic_Graphs.pdf",
-      "pdfUrl": "http://arxiv.org/pdf/2204.07203",
-      "topics": [
-        "ai-national-security"
-      ],
-      "scholarUrl": "https://graph-learning-benchmarks.github.io/assets/papers/glb2022/EXPERT_Public_Benchmarks_for_Dynamic_Heterogeneous_Academic_Graphs.pdf",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Svitlana Volkova"
-    },
-    {
-      "title": "Social Media Activity Forecasting with Exogenous and Endogenous Signals",
-      "authors": "Kin Wai Ng, Sameera Horawalavithana, Adriana Iamnitchi",
-      "venue": "Social Network Analysis and Mining",
-      "year": 2022,
-      "citations": 11,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-simulation"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Social+Media+Activity+Forecasting+with+Exogenous+and+Endogenous+Signals",
-      "firstAuthor": "Kin Wai Ng",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Vaccination Trials on Hold: Malicious and Low Credibility Content on Twitter during the AstraZeneca COVID-19 Vaccine Development",
-      "authors": "Sameera Horawalavithana, Ravindu De Silva, Nipuna Weerasekara, Kin Wai Ng, Mohamed Nabeel, Charitha Elvitigala, Primal Wijesekara, Adriana Iamnitchi",
-      "venue": "Computational and Mathematical Organization Theory",
-      "year": 2022,
-      "citations": 8,
-      "url": "https://link.springer.com/article/10.1007/s10588-022-09370-3",
-      "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10588-022-09370-3.pdf",
-      "topics": [
-        "ai-national-security"
-      ],
-      "scholarUrl": "https://link.springer.com/article/10.1007/s10588-022-09370-3",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Multi-Platform Information Operations: Twitter, Facebook and YouTube against the White Helmets",
-      "authors": "Kin Wai Ng, Sameera Horawalavithana, Adriana Iamnitchi",
-      "venue": "ICWSM Workshops 2021",
-      "year": 2021,
-      "citations": 9,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-national-security"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Multi-Platform+Information+Operations:+Twitter,+Facebook+and+YouTube+against+the+White+Helmets",
-      "firstAuthor": "Kin Wai Ng",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Forecasting Topic Activity with Exogenous and Endogenous Information Signals in Twitter",
-      "authors": "Kin Wai Ng, Sameera Horawalavithana, Adriana Iamnitchi",
-      "venue": "International Conference on Advances in Social Networks Analysis and Mining (ASONAM) 2021",
-      "year": 2021,
-      "citations": 7,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-simulation"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Forecasting+Topic+Activity+with+Exogenous+and+Endogenous+Information+Signals+in+Twitter",
-      "firstAuthor": "Kin Wai Ng",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Online Discussion Threads as Conversation Pools: Predicting the Growth of Discussion Threads on Reddit",
-      "authors": "Sameera Horawalavithana, Nazim Choudhury, John Skvoretz, Adriana Iamnitchi",
-      "venue": "Computational and Mathematical Organization Theory 2021",
-      "year": 2021,
-      "citations": 15,
-      "url": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
-      "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
-      "topics": [
-        "ai-simulation"
-      ],
-      "scholarUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Drivers of Polarized Discussions on Twitter during Venezuela Political Crisis",
-      "authors": "Sameera Horawalavithana, Kin Wai Ng, Adriana Iamnitchi",
-      "venue": "13th ACM Web Science Conference (WebSci) 2021",
-      "year": 2021,
-      "citations": 17,
-      "url": "https://www.cse.usf.edu/dsg/data/publications/papers/vz-pola-external-websci21.pdf",
-      "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/vz-pola-external-websci21.pdf",
-      "topics": [
-        "ai-national-security"
-      ],
-      "scholarUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/vz-pola-external-websci21.pdf",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Malicious and Low Credibility URLs on Twitter During the AstraZeneca COVID-19 Vaccine Development",
-      "authors": "Sameera Horawalavithana, Ravindu De Silva, Mohamed Nabeel, Charitha Elvitigala, Primal Wijesekara, Adriana Iamnitchi",
-      "venue": "International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction (SBP-BRiMS) 2021",
-      "year": 2021,
-      "citations": 7,
-      "url": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
-      "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
-      "topics": [
-        "ai-national-security"
-      ],
-      "award": "Best Paper (COVID Track)",
-      "scholarUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Twitter Is the Megaphone of Cross-Platform Messaging on the White Helmets",
-      "authors": "Sameera Horawalavithana, Kin Wai Ng, Adriana Iamnitchi",
-      "venue": "International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction (SBP-BRiMS) 2020",
-      "year": 2020,
-      "citations": 21,
-      "url": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
-      "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
-      "topics": [
-        "ai-national-security"
-      ],
-      "scholarUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Cascade-LSTM: Predicting Information Cascades Using Deep Neural Networks",
-      "authors": "Sameera Horawalavithana, John Skvoretz, Adriana Iamnitchi",
-      "venue": "arXiv preprint",
-      "year": 2020,
-      "citations": 10,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-simulation"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Cascade-LSTM:+Predicting+Information+Cascades+Using+Deep+Neural+Networks",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "On the Privacy of dK-Random Graphs",
-      "authors": "Sameera Horawalavithana, Adriana Iamnitchi",
-      "venue": "arXiv preprint",
-      "year": 2019,
-      "citations": 5,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-national-security"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=On+the+Privacy+of+dK-Random+Graphs",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Predicting Longitudinal User Activity at Fine Time Granularity in Online Collaborative Platforms",
-      "authors": "Renhao Liu, Frederick Mubang, Lawrence O. Hall, Sameera Horawalavithana, Adriana Iamnitchi",
-      "venue": "IEEE International Conference on Systems, Man and Cybernetics (SMC) 2019",
-      "year": 2019,
-      "citations": 11,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-simulation"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Predicting+Longitudinal+User+Activity+at+Fine+Time+Granularity+in+Online+Collaborative+Platforms",
-      "firstAuthor": "Renhao Liu",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
-    {
-      "title": "Temporal Mobility Networks in Online Gaming",
-      "authors": "Essa Alhazmi, Nazim Choudhury, Sameera Horawalavithana, Adriana Iamnitchi",
-      "venue": "Frontiers in Big Data 2019",
-      "year": 2019,
-      "citations": 2,
-      "url": "https://doi.org/10.3389/fdata.2019.00021",
-      "pdfUrl": "https://doi.org/10.3389/fdata.2019.00021",
-      "topics": [
-        "ai-simulation"
-      ],
-      "scholarUrl": "https://doi.org/10.3389/fdata.2019.00021",
-      "firstAuthor": "Essa Alhazmi",
-      "lastAuthor": "Adriana Iamnitchi"
-    },
+      
     {
       "title": "Behind the Mask: Understanding the Structural Forces That Make Social Graphs Vulnerable to Deanonymization",
       "authors": "Sameera Horawalavithana, Juan G. Arroyo Flores, John Skvoretz, Adriana Iamnitchi",
@@ -446,10 +174,7 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-national-security"
-      ],
-      "scholarUrl": "https://ieeexplore.ieee.org/document/8913684",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
+      ]
     },
     {
       "title": "Mentions of Security Vulnerabilities on Reddit, Twitter and GitHub",
@@ -461,10 +186,7 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "https://dl.acm.org/doi/pdf/10.1145/3350546.3352519",
       "topics": [
         "ai-national-security"
-      ],
-      "scholarUrl": "https://dl.acm.org/doi/10.1145/3350546.3352519",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
+      ]
     },
     {
       "title": "The Risk of Node Re-Identification in Labeled Social Graphs",
@@ -476,10 +198,7 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "https://appliednetsci.springeropen.com/track/pdf/10.1007/s41109-019-0148-x",
       "topics": [
         "ai-national-security"
-      ],
-      "scholarUrl": "https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0148-x",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
+      ]
     },
     {
       "title": "Diversity, Homophily and the Risk of Node Re-Identification in Labeled Social Graphs",
@@ -491,10 +210,31 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-national-security"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=Diversity,+Homophily+and+the+Risk+of+Node+Re-Identification+in+Labeled+Social+Graphs",
-      "firstAuthor": "Sameera Horawalavithana",
-      "lastAuthor": "Adriana Iamnitchi"
+      ]
+    },
+    {
+      "title": "A Weighted Network Analysis of User Migrations in a Social Network",
+      "authors": "Malith Senaweera, Ruchira Dissanayake, Nuwini Chamindi, Anupa Shyamalal, Charitha Elvitigala, Sameera Horawalavithana",
+      "venue": "International Conference on Advances in ICT for Emerging Regions (ICTer) 2018",
+      "year": 2018,
+      "citations": 11,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-science"
+      ]
+    },
+    {
+      "title": "The Influence of Community Interactions on User Affinity in Social Networks: A Facebook Case Study",
+      "authors": "Malith Senaweera, Ruchira Dissanayake, Nuwini Chamindi, Anupa Shyamlal, Charitha Elvitigala, Sameera Horawalavithana",
+      "venue": "National Information Technology Conference (NITC) 2018",
+      "year": 2018,
+      "citations": 3,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-science"
+      ]
     },
     {
       "title": "An Empirical Study on Team Formation in Online Games",
@@ -505,26 +245,20 @@ var PUBLICATIONS_DATA = {
       "url": "https://arxiv.org/abs/1708.03015",
       "pdfUrl": "https://arxiv.org/pdf/1708.03015",
       "topics": [
-        "ai-simulation"
-      ],
-      "scholarUrl": "https://arxiv.org/abs/1708.03015",
-      "firstAuthor": "Essa Alhazmi",
-      "lastAuthor": "Adriana Iamnitchi"
+        "ai-science"
+      ]
     },
     {
       "title": "NEPATEC 1.0: First Large-Scale Text Corpus of National Environmental Policy Act PDF Documents",
       "authors": "Shivam Sharma, Dan Nally, Mike Parker, Sai Munikoti, Sameera Horawalavithana",
       "venue": "",
-      "year": 2023,
+      "year": null,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=NEPATEC+1.0:+First+Large-Scale+Text+Corpus+of+National+Environmental+Policy+Act+PDF+Documents",
-      "firstAuthor": "Shivam Sharma",
-      "lastAuthor": "Sameera Horawalavithana"
+      ]
     },
     {
       "title": "MolJET: Multimodal Joint Embedding Transformer for Conditional De Novo Molecular Design and Multi-Property Optimization",
@@ -536,10 +270,7 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-science"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=MolJET:+Multimodal+Joint+Embedding+Transformer+for+Conditional+De+Novo+Molecular+Design+and+Multi-Property+Optimization",
-      "firstAuthor": "Orion Walker Dollar",
-      "lastAuthor": "Svitlana Volkova"
+      ]
     },
     {
       "title": "A GenAI Geospatial Web Application Charting NEPA Environmental Reviews",
@@ -551,25 +282,55 @@ var PUBLICATIONS_DATA = {
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=A+GenAI+Geospatial+Web+Application+Charting+NEPA+Environmental+Reviews",
-      "firstAuthor": "Anastasia Bernat",
-      "lastAuthor": "Shivam Sharma"
+      ]
     },
     {
       "title": "DraftNEPABench: A Benchmark for Drafting NEPA Document Sections with Coding Agents",
-      "authors": "Anurag Acharya, Bishal Lakha, Rounak Meyur, Rohan Nuttall, Sarthak Chaturvedi, Anika Halappanavar, Leah Hare, Lin Zeng, Mike Parker, Sai Munikoti, Sameera Horawalavithana",
+      "authors": "Anurag Acharya, Bishal Lakha, Rounak Meyur, Rohan Nuttall, Sarthak Chaturvedi, Anika Tabassum, Sameera Horawalavithana, Sai Munikoti",
       "venue": "",
-      "year": 2026,
+      "year": null,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ],
-      "scholarUrl": "https://scholar.google.com/scholar?q=DraftNEPABench:+A+Benchmark+for+Drafting+NEPA+Document+Sections+with+Coding+Agents",
-      "firstAuthor": "Anurag Acharya",
-      "lastAuthor": "Sameera Horawalavithana"
+      ]
+    },
+    {
+      "title": "The PermitAI Application Suite and GeoAI Testbed for Accelerating Permitting",
+      "authors": "Anastasia Bernat, Heng Wan, Cleve Davis, Anusha Devulapally, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
+      "venue": "AGU25",
+      "year": 2025,
+      "citations": 0,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-permitting"
+      ]
+    },
+    {
+      "title": "Building the Foundation for Georeferencing: A Preprocessing Workflow for NEPA Map Images",
+      "authors": "Heng Wan, Anusha Devulapally, Sridevi Wagle, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
+      "venue": "AGU25",
+      "year": 2025,
+      "citations": 0,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-permitting"
+      ]
+    },
+    {
+      "title": "Cross-Modal Validation and Refinement for Scalable Digitization of NEPA Map Features",
+      "authors": "Anusha Devulapally, Heng Wan, Cleve Davis, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
+      "venue": "AGU25",
+      "year": 2025,
+      "citations": 0,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-permitting"
+      ]
     }
   ],
   "technicalReports": [
@@ -646,14 +407,12 @@ var PUBLICATIONS_DATA = {
     { key: 'ai-science',           label: 'AI for Science' },
     { key: 'ai-permitting',        label: 'AI for Permitting' },
     { key: 'ai-national-security', label: 'AI for National Security' },
-    { key: 'ai-simulation',        label: 'AI + Simulation' },
     { key: 'misc',                 label: 'Miscellaneous' }
   ];
 
   var state = {
     data: null,
-    activeTopic: 'ai-science',
-    selectedYear: null
+    activeTopic: 'ai-science'
   };
 
   function init() {
@@ -677,7 +436,6 @@ var PUBLICATIONS_DATA = {
 
   function render() {
     renderTabs();
-    renderYearFilter();
     renderList();
     updateScholarLink();
   }
@@ -698,56 +456,7 @@ var PUBLICATIONS_DATA = {
       btn.textContent = t.label;
       btn.addEventListener('click', function () {
         state.activeTopic = t.key;
-        state.selectedYear = null;
         render();
-      });
-      container.appendChild(btn);
-    });
-  }
-
-  function getYearsForTopic() {
-    var yearsSet = {};
-    if (state.activeTopic === 'misc') {
-      return [];
-    }
-    state.data.publications.forEach(function (p) {
-      if (p.topics.indexOf(state.activeTopic) !== -1 && p.year) {
-        yearsSet[p.year] = true;
-      }
-    });
-    var years = Object.keys(yearsSet).map(function (y) { return parseInt(y); });
-    return years.sort(function (a, b) { return b - a; });
-  }
-
-  function renderYearFilter() {
-    var container = document.getElementById('pub-year-filter');
-    container.innerHTML = '';
-
-    if (state.activeTopic === 'misc') {
-      return;
-    }
-
-    var years = getYearsForTopic();
-    if (!years.length) {
-      return;
-    }
-
-    var allBtn = document.createElement('button');
-    allBtn.className = 'year-btn' + (state.selectedYear === null ? ' active' : '');
-    allBtn.textContent = 'All Years';
-    allBtn.addEventListener('click', function () {
-      state.selectedYear = null;
-      renderList();
-    });
-    container.appendChild(allBtn);
-
-    years.forEach(function (year) {
-      var btn = document.createElement('button');
-      btn.className = 'year-btn' + (state.selectedYear === year ? ' active' : '');
-      btn.textContent = String(year);
-      btn.addEventListener('click', function () {
-        state.selectedYear = year;
-        renderList();
       });
       container.appendChild(btn);
     });
@@ -757,15 +466,18 @@ var PUBLICATIONS_DATA = {
     var container = document.getElementById('pub-list');
     container.innerHTML = '';
 
+    if (!state.data) {
+      container.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">No publications found.</p>';
+      return;
+    }
+
     if (state.activeTopic === 'misc') {
       renderTechnicalReports(container);
       return;
     }
 
-    var pubs = state.data.publications.filter(function (p) {
-      var matchesTopic = p.topics.indexOf(state.activeTopic) !== -1;
-      var matchesYear = state.selectedYear === null || p.year === state.selectedYear;
-      return matchesTopic && matchesYear;
+    var pubs = (state.data.publications || []).filter(function (p) {
+      return p.topics && p.topics.indexOf(state.activeTopic) !== -1;
     });
 
     pubs.sort(function (a, b) {
@@ -777,100 +489,97 @@ var PUBLICATIONS_DATA = {
       return;
     }
 
-    var pubsList = document.createElement('div');
-    pubsList.className = 'pub-list-apa';
-
+    var byYear = {};
     pubs.forEach(function (p) {
-      var entry = document.createElement('div');
-      entry.className = 'pub-entry-apa';
-
-      var html = formatAPAEntry(p);
-      entry.innerHTML = html;
-      pubsList.appendChild(entry);
+      var y = p.year || 'Unknown';
+      if (!byYear[y]) byYear[y] = [];
+      byYear[y].push(p);
     });
 
-    container.appendChild(pubsList);
-  }
-
-  function formatAPAEntry(p) {
-    // APA format: Authors (Year). Title. Venue.
-    var authors = formatAuthorsAPA(p.authors);
-    var year = p.year ? '(' + p.year + ')' : '(n.d.)';
-    var title = '<a href="' + escapeAttr(p.scholarUrl) + '">' + escapeHtml(p.title) + '</a>';
-    var venue = p.venue ? '<em>' + escapeHtml(p.venue) + '</em>' : '';
-
-    var parts = [authors, year, title];
-    if (venue) parts.push(venue);
-
-    var html = parts.join('. ') + '.';
-
-    if (p.award) {
-      html += ' <span class="pub-award">★ ' + escapeHtml(p.award) + '</span>';
-    }
-    if (p.pdfUrl && p.pdfUrl !== p.url) {
-      html += ' <a class="pub-pdf-link" href="' + escapeAttr(p.pdfUrl) + '">[PDF]</a>';
-    }
-
-    return html;
-  }
-
-  function formatAuthorsAPA(authorsStr) {
-    if (!authorsStr) return '';
-    
-    var authorsArr = authorsStr.split(', ');
-    var formatted = authorsArr.map(function (author) {
-      var trimmed = author.trim();
-      var surname = extractSurname(trimmed);
-      
-      // Highlight Horawalavithana in green bold
-      if (surname.toLowerCase() === 'horawalavithana') {
-        return '<span style="color:#2a7a2a;font-weight:bold">' + escapeHtml(surname) + '</span>';
-      }
-      // All other surnames plain (no bold)
-      return escapeHtml(surname);
+    var years = Object.keys(byYear).sort(function (a, b) {
+      if (a === 'Unknown') return 1;
+      if (b === 'Unknown') return -1;
+      return parseInt(b, 10) - parseInt(a, 10);
     });
-    
-    // APA: "Author1, Author2, & Author3"
-    if (formatted.length === 0) return '';
-    if (formatted.length === 1) return formatted[0];
-    if (formatted.length === 2) return formatted[0] + ' & ' + formatted[1];
-    
-    return formatted.slice(0, -1).join(', ') + ', & ' + formatted[formatted.length - 1];
+
+    var counter = 1;
+    years.forEach(function (year) {
+      var yearHeader = document.createElement('h3');
+      yearHeader.textContent = year;
+      yearHeader.style.margin = '0.6em 0 0.2em 0.8em';
+      container.appendChild(yearHeader);
+
+      byYear[year].forEach(function (p) {
+        var row = document.createElement('div');
+        row.className = 'ref';
+
+        var numEl = document.createElement('div');
+        numEl.className = 'ref-num';
+        numEl.textContent = '[' + (counter++) + ']';
+
+        var entryEl = document.createElement('div');
+        entryEl.className = 'ref-entry';
+
+        var authorsHtml = escapeHtml(p.authors).replace(
+          /Sameera Horawalavithana/g,
+          '<b>Sameera Horawalavithana</b>'
+        );
+
+        var titleHtml = p.url
+          ? '<a href="' + escapeAttr(p.url) + '">' + escapeHtml(p.title) + '</a>'
+          : escapeHtml(p.title);
+
+        var parts = [authorsHtml, titleHtml];
+        if (p.venue) parts.push('<span style="font-style:italic">' + escapeHtml(p.venue) + '</span>');
+        if (p.year)  parts.push(String(p.year));
+
+        var html = parts.join('. ');
+
+        if (p.award) {
+          html += ' <span class="pub-award">&#9733; ' + escapeHtml(p.award) + '</span>';
+        }
+        if (p.pdfUrl && p.pdfUrl !== p.url) {
+          html += ' <a class="pub-pdf-link" href="' + escapeAttr(p.pdfUrl) + '">[PDF]</a>';
+        }
+
+        entryEl.innerHTML = html;
+        row.appendChild(numEl);
+        row.appendChild(entryEl);
+        container.appendChild(row);
+      });
+    });
   }
 
   function renderTechnicalReports(container) {
-    var reportsList = document.createElement('div');
-    reportsList.className = 'pub-list-apa';
+    (state.data.technicalReports || []).forEach(function (r, i) {
+      var row = document.createElement('div');
+      row.className = 'ref';
 
-    (state.data.technicalReports || []).forEach(function (r) {
-      var entry = document.createElement('div');
-      entry.className = 'pub-entry-apa';
+      var numEl = document.createElement('div');
+      numEl.className = 'ref-num';
+      numEl.textContent = '[' + (i + 1) + ']';
+
+      var entryEl = document.createElement('div');
+      entryEl.className = 'ref-entry';
 
       var authorsHtml = escapeHtml(r.authors).replace(
         /Sameera Horawalavithana/g,
-        '<span style="color:#2a7a2a;font-weight:bold">Horawalavithana</span>'
+        '<b>Sameera Horawalavithana</b>'
       );
 
       var titleHtml = r.url
         ? '<a href="' + escapeAttr(r.url) + '">' + escapeHtml(r.title) + '</a>'
         : escapeHtml(r.title);
 
-      var html = authorsHtml + '. ' + titleHtml;
+      var html = '<b>' + authorsHtml + '</b>. ' + titleHtml;
       if (r.description) html += '. ' + escapeHtml(r.description);
       if (r.note)        html += '. <b>' + escapeHtml(r.note) + '</b>';
-      
-      html += '.';
 
-      entry.innerHTML = html;
-      reportsList.appendChild(entry);
+      entryEl.innerHTML = html;
+      row.appendChild(numEl);
+      row.appendChild(entryEl);
+      container.appendChild(row);
     });
-
-    container.appendChild(reportsList);
-  }
-
-  function extractSurname(fullName) {
-    var parts = fullName.trim().split(/\s+/);
-    return parts[parts.length - 1];
   }
 
   function escapeHtml(str) {
