@@ -163,7 +163,206 @@ var PUBLICATIONS_DATA = {
       "authors": "Sameera Horawalavithana, Ellyn Ayton, Anastasiya Usenko, Robin Cosbey, Svitlana Volkova",
       "venue": "IEEE Transactions on Computational Social Systems",
       "year": 2023,
-      
+      "citations": 2,
+      "url": "",
+      "pdfUrl": "https://arxiv.org/pdf/2307.09665",
+      "topics": [
+        "ai-national-security"
+      ]
+    },
+    {
+      "title": "NuclearQA: A Human-Made Benchmark for Language Models for the Nuclear Domain",
+      "authors": "Anurag Acharya, Sai Munikoti, Aaron Hellinger, Sara Smith, Shivam Wagle, Sameera Horawalavithana",
+      "venue": "arXiv preprint",
+      "year": 2023,
+      "citations": 11,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-national-security"
+      ]
+    },
+    {
+      "title": "Foundation Models of Scientific Knowledge for Chemistry: Opportunities, Challenges and Lessons Learned",
+      "authors": "Sameera Horawalavithana, Ellyn Ayton, Shivam Sharma, Scott Howland, Megha Subramanian, Scott Vasquez, Robin Cosbey, Maria Glenski, Svitlana Volkova",
+      "venue": "BigScience #5, Challenges & Perspectives in Creating Large Language Models, ACL 2022",
+      "year": 2022,
+      "citations": 36,
+      "url": "https://aclanthology.org/2022.bigscience-1.12",
+      "pdfUrl": "https://aclanthology.org/2022.bigscience-1.12.pdf",
+      "topics": [
+        "ai-science"
+      ]
+    },
+    {
+      "title": "Lessons from Developing Multimodal Models with Code and Developer Interactions",
+      "authors": "Nicholas Botzer, Sameera Horawalavithana, Tim Weninger, Svitlana Volkova",
+      "venue": "NeurIPS Workshop",
+      "year": 2022,
+      "citations": 0,
+      "url": "dl/28_lessons_from_developing_multim.pdf",
+      "pdfUrl": "dl/28_lessons_from_developing_multim.pdf",
+      "topics": [
+        "ai-science"
+      ]
+    },
+    {
+      "title": "EXPERT: Public Benchmarks for Dynamic Heterogeneous Academic Graphs",
+      "authors": "Sameera Horawalavithana, Ellyn Ayton, Anastasiya Usenko, Robin Cosbey, Shivam Sharma, Jasmine Eshun, Maria Glenski, Svitlana Volkova",
+      "venue": "Graph Learning Benchmark Workshop, The Web Conference 2022",
+      "year": 2022,
+      "citations": 3,
+      "url": "https://graph-learning-benchmarks.github.io/assets/papers/glb2022/EXPERT_Public_Benchmarks_for_Dynamic_Heterogeneous_Academic_Graphs.pdf",
+      "pdfUrl": "http://arxiv.org/pdf/2204.07203",
+      "topics": [
+        "ai-national-security"
+      ]
+    },
+    {
+      "title": "Social Media Activity Forecasting with Exogenous and Endogenous Signals",
+      "authors": "Kin Wai Ng, Sameera Horawalavithana, Adriana Iamnitchi",
+      "venue": "Social Network Analysis and Mining",
+      "year": 2022,
+      "citations": 11,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-science"
+      ]
+    },
+    {
+      "title": "Vaccination Trials on Hold: Malicious and Low Credibility Content on Twitter during the AstraZeneca COVID-19 Vaccine Development",
+      "authors": "Sameera Horawalavithana, Ravindu De Silva, Nipuna Weerasekara, Kin Wai Ng, Mohamed Nabeel, Charitha Elvitigala, Primal Wijesekara, Adriana Iamnitchi",
+      "venue": "Computational and Mathematical Organization Theory",
+      "year": 2022,
+      "citations": 8,
+      "url": "https://link.springer.com/article/10.1007/s10588-022-09370-3",
+      "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10588-022-09370-3.pdf",
+      "topics": [
+        "ai-national-security"
+      ]
+    },
+    {
+      "title": "Multi-Platform Information Operations: Twitter, Facebook and YouTube against the White Helmets",
+      "authors": "Kin Wai Ng, Sameera Horawalavithana, Adriana Iamnitchi",
+      "venue": "ICWSM Workshops 2021",
+      "year": 2021,
+      "citations": 9,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-national-security"
+      ]
+    },
+    {
+      "title": "Forecasting Topic Activity with Exogenous and Endogenous Information Signals in Twitter",
+      "authors": "Kin Wai Ng, Sameera Horawalavithana, Adriana Iamnitchi",
+      "venue": "International Conference on Advances in Social Networks Analysis and Mining (ASONAM) 2021",
+      "year": 2021,
+      "citations": 7,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-science"
+      ]
+    },
+    {
+      "title": "Online Discussion Threads as Conversation Pools: Predicting the Growth of Discussion Threads on Reddit",
+      "authors": "Sameera Horawalavithana, Nazim Choudhury, John Skvoretz, Adriana Iamnitchi",
+      "venue": "Computational and Mathematical Organization Theory 2021",
+      "year": 2021,
+      "citations": 15,
+      "url": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
+      "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
+      "topics": [
+        "ai-science"
+      ]
+    },
+    {
+      "title": "Drivers of Polarized Discussions on Twitter during Venezuela Political Crisis",
+      "authors": "Sameera Horawalavithana, Kin Wai Ng, Adriana Iamnitchi",
+      "venue": "13th ACM Web Science Conference (WebSci) 2021",
+      "year": 2021,
+      "citations": 17,
+      "url": "https://www.cse.usf.edu/dsg/data/publications/papers/vz-pola-external-websci21.pdf",
+      "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/vz-pola-external-websci21.pdf",
+      "topics": [
+        "ai-national-security"
+      ]
+    },
+    {
+      "title": "Malicious and Low Credibility URLs on Twitter During the AstraZeneca COVID-19 Vaccine Development",
+      "authors": "Sameera Horawalavithana, Ravindu De Silva, Mohamed Nabeel, Charitha Elvitigala, Primal Wijesekara, Adriana Iamnitchi",
+      "venue": "International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction (SBP-BRiMS) 2021",
+      "year": 2021,
+      "citations": 7,
+      "url": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
+      "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
+      "topics": [
+        "ai-national-security"
+      ],
+      "award": "Best Paper (COVID Track)"
+    },
+    {
+      "title": "Twitter Is the Megaphone of Cross-Platform Messaging on the White Helmets",
+      "authors": "Sameera Horawalavithana, Kin Wai Ng, Adriana Iamnitchi",
+      "venue": "International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction (SBP-BRiMS) 2020",
+      "year": 2020,
+      "citations": 21,
+      "url": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
+      "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
+      "topics": [
+        "ai-national-security"
+      ]
+    },
+    {
+      "title": "Cascade-LSTM: Predicting Information Cascades Using Deep Neural Networks",
+      "authors": "Sameera Horawalavithana, John Skvoretz, Adriana Iamnitchi",
+      "venue": "arXiv preprint",
+      "year": 2020,
+      "citations": 10,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-science"
+      ]
+    },
+    {
+      "title": "On the Privacy of dK-Random Graphs",
+      "authors": "Sameera Horawalavithana, Adriana Iamnitchi",
+      "venue": "arXiv preprint",
+      "year": 2019,
+      "citations": 5,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-national-security"
+      ]
+    },
+    {
+      "title": "Predicting Longitudinal User Activity at Fine Time Granularity in Online Collaborative Platforms",
+      "authors": "Renhao Liu, Frederick Mubang, Lawrence O. Hall, Sameera Horawalavithana, Adriana Iamnitchi",
+      "venue": "IEEE International Conference on Systems, Man and Cybernetics (SMC) 2019",
+      "year": 2019,
+      "citations": 11,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-science"
+      ]
+    },
+    {
+      "title": "Temporal Mobility Networks in Online Gaming",
+      "authors": "Essa Alhazmi, Nazim Choudhury, Sameera Horawalavithana, Adriana Iamnitchi",
+      "venue": "Frontiers in Big Data 2019",
+      "year": 2019,
+      "citations": 2,
+      "url": "https://doi.org/10.3389/fdata.2019.00021",
+      "pdfUrl": "https://doi.org/10.3389/fdata.2019.00021",
+      "topics": [
+        "ai-science"
+      ]
+    },
     {
       "title": "Behind the Mask: Understanding the Structural Forces That Make Social Graphs Vulnerable to Deanonymization",
       "authors": "Sameera Horawalavithana, Juan G. Arroyo Flores, John Skvoretz, Adriana Iamnitchi",
@@ -343,56 +542,56 @@ var PUBLICATIONS_DATA = {
     },
     {
       "title": "Cloud Based Publish/Subscribe Model for Top-k Matching over Continuous Data-Streams",
-      "authors": "Y. S. Horawalavithana",
+      "authors": "Sameera Horawalavithana",
       "description": "Undergraduate Thesis, University of Colombo School of Computing, 2015",
       "url": "dl/Y.S.Horawalavithana_Undergraduate Thesis_Top-k pub_sub_2015_UCSC.pdf",
       "note": "Best Undergraduate Thesis"
     },
     {
       "title": "\"What Draws Your Attention?\": Analyzing the Impact of Duplicate Hoaxes",
-      "authors": "Y. S. Horawalavithana",
+      "authors": "Sameera Horawalavithana",
       "description": "Coursework project, Social Media Mining, December 2018",
       "url": "dl/FakeEconomy_Hoaxy.pdf",
       "note": ""
     },
     {
       "title": "Distributed Software Transactional Memory",
-      "authors": "Y. S. Horawalavithana",
+      "authors": "Sameera Horawalavithana",
       "description": "Literature review, January 2014",
       "url": "dl/Y.S.Horawalavithana_Lit_Review_Distributed Software Transactional Memory_2014_UCSC.pdf",
       "note": ""
     },
     {
       "title": "On the Design of an Efficient Hardware Accelerator for Large Scale Graph Analytics",
-      "authors": "Y. S. Horawalavithana",
+      "authors": "Sameera Horawalavithana",
       "description": "Literature review, December 2016",
       "url": "dl/Term_Paper_Y.S.Horawalavithana.pdf",
       "note": ""
     },
     {
       "title": "Temporal Patterns of Motifs",
-      "authors": "Y. S. Horawalavithana",
+      "authors": "Sameera Horawalavithana",
       "description": "Coursework project, Social Network Analysis, May 2017",
       "url": "dl/temporal-patterns-of-motifs_sameera.pdf",
       "note": ""
     },
     {
       "title": "Estimating Measurement Probability Distributions with Mixture Density Networks",
-      "authors": "Y. S. Horawalavithana",
+      "authors": "Sameera Horawalavithana",
       "description": "Coursework project, Deep Learning, May 2018",
       "url": "dl/mdn.pdf",
       "note": ""
     },
     {
       "title": "Object State Recognition for Learning Manipulation Tasks in Robotics",
-      "authors": "Y. S. Horawalavithana",
+      "authors": "Sameera Horawalavithana",
       "description": "Coursework project, Deep Learning, May 2018",
       "url": "dl/cnn.pdf",
       "note": ""
     },
     {
       "title": "Security Exploits: Smash-Stack, Heap-Spray, Heap-Spray-ROP, Vold-Daemon",
-      "authors": "Y. S. Horawalavithana",
+      "authors": "Sameera Horawalavithana",
       "description": "Coursework projects, System Security, December 2017",
       "url": "dl/exploits/smash-stack/smash-stack.pdf",
       "note": ""
@@ -404,70 +603,100 @@ var PUBLICATIONS_DATA = {
   'use strict';
 
   var TOPICS = [
-    { key: 'ai-science',           label: 'AI for Science' },
-    { key: 'ai-permitting',        label: 'AI for Permitting' },
+    { key: 'ai-science', label: 'AI for Science' },
+    { key: 'ai-permitting', label: 'AI for Permitting' },
     { key: 'ai-national-security', label: 'AI for National Security' },
-    { key: 'misc',                 label: 'Miscellaneous' }
+    { key: 'misc', label: 'Miscellaneous' }
   ];
 
-  var state = {
-    data: null,
-    activeTopic: 'ai-science'
-  };
+  var state = { data: null, activeTopic: 'ai-science' };
 
   function init() {
-    if (typeof PUBLICATIONS_DATA !== 'undefined') {
+    var el = document.getElementById('pub-list');
+    if (!el) return;
+    if (typeof PUBLICATIONS_DATA !== 'undefined' && PUBLICATIONS_DATA) {
       state.data = PUBLICATIONS_DATA;
-      render();
-    } else {
-      fetch('publications.json')
-        .then(function (r) { return r.json(); })
-        .then(function (data) {
-          state.data = data;
-          render();
-        })
-        .catch(function () {
-          document.getElementById('pub-list').innerHTML =
-            '<p style="color:#666;font-style:italic">Unable to load publications. ' +
-            '<a href="https://scholar.google.com/citations?user=5PvG8ugAAAAJ">View on Google Scholar</a>.</p>';
-        });
+      renderTabs(); renderList();
+      return;
     }
+    el.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">Loading publications&hellip;</p>';
+    fetch('publications.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) { state.data = data; renderTabs(); renderList(); })
+      .catch(function () { el.innerHTML = '<p style="color:#666;font-style:italic">Unable to load publications.</p>'; });
   }
 
-  function render() {
-    renderTabs();
-    renderList();
-    updateScholarLink();
+  function renderTabs() {
+    var container = document.getElementById('pub-tabs'); if (!container) return; container.innerHTML = '';
+    TOPICS.forEach(function (t) { var btn = document.createElement('button'); btn.className = 'pub-tab' + (t.key === state.activeTopic ? ' active' : ''); btn.textContent = t.label; btn.addEventListener('click', function () { state.activeTopic = t.key; renderList(); }); container.appendChild(btn); });
   }
 
-  function updateScholarLink() {
-    var el = document.getElementById('pub-scholar-link');
-    if (el && state.data && state.data.lastUpdated) {
-      el.textContent = 'Updated ' + state.data.lastUpdated;
+  function renderList() {
+    var container = document.getElementById('pub-list'); if (!container) return; container.innerHTML = '';
+    if (!state.data || !state.data.publications) { container.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">No publications available.</p>'; return; }
+    if (state.activeTopic === 'misc') { renderTechnicalReports(container); return; }
+
+    var pubs = (state.data.publications || []).filter(function (p) { return p.topics && p.topics.indexOf(state.activeTopic) !== -1; });
+    pubs.sort(function (a, b) { return (b.year || 0) - (a.year || 0); });
+    if (!pubs.length) { container.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">No publications found.</p>'; return; }
+
+    var byYear = {};
+    pubs.forEach(function (p) { var y = p.year || 'Unknown'; if (!byYear[y]) byYear[y] = []; byYear[y].push(p); });
+    var years = Object.keys(byYear).sort(function (a, b) { if (a === 'Unknown') return 1; if (b === 'Unknown') return -1; return parseInt(b, 10) - parseInt(a, 10); });
+
+    var nav = document.createElement('div'); nav.className = 'year-nav';
+    years.forEach(function (yr) { var btn = document.createElement('button'); btn.className = 'year-nav-btn'; btn.textContent = yr; btn.addEventListener('click', function () { var id = 'pub-year-' + String(yr).replace(/[^a-z0-9_-]/gi, '-'); var header = document.getElementById(id); if (header) header.scrollIntoView({ behavior: 'smooth', block: 'start' }); }); nav.appendChild(btn); });
+    container.appendChild(nav);
+// publications.js — final clean renderer (single IIFE)
+(function () {
+  'use strict';
+
+  var TOPICS = [
+    { key: 'ai-science', label: 'AI for Science' },
+    { key: 'ai-permitting', label: 'AI for Permitting' },
+    { key: 'ai-national-security', label: 'AI for National Security' },
+    { key: 'misc', label: 'Miscellaneous' }
+  ];
+
+  var state = { data: null, activeTopic: 'ai-science' };
+
+  function init() {
+    var el = document.getElementById('pub-list');
+    if (!el) return;
+    if (typeof PUBLICATIONS_DATA !== 'undefined' && PUBLICATIONS_DATA) {
+      state.data = PUBLICATIONS_DATA;
+      renderTabs();
+      renderList();
+      return;
     }
+
+    el.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">Loading publications&hellip;</p>';
+    fetch('publications.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) { state.data = data; renderTabs(); renderList(); })
+      .catch(function () { el.innerHTML = '<p style="color:#666;font-style:italic">Unable to load publications.</p>'; });
   }
 
   function renderTabs() {
     var container = document.getElementById('pub-tabs');
+    if (!container) return;
     container.innerHTML = '';
     TOPICS.forEach(function (t) {
       var btn = document.createElement('button');
       btn.className = 'pub-tab' + (t.key === state.activeTopic ? ' active' : '');
       btn.textContent = t.label;
-      btn.addEventListener('click', function () {
-        state.activeTopic = t.key;
-        render();
-      });
+      btn.addEventListener('click', function () { state.activeTopic = t.key; renderList(); });
       container.appendChild(btn);
     });
   }
 
   function renderList() {
     var container = document.getElementById('pub-list');
+    if (!container) return;
     container.innerHTML = '';
 
-    if (!state.data) {
-      container.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">No publications found.</p>';
+    if (!state.data || !state.data.publications) {
+      container.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">No publications available.</p>';
       return;
     }
 
@@ -480,10 +709,7 @@ var PUBLICATIONS_DATA = {
       return p.topics && p.topics.indexOf(state.activeTopic) !== -1;
     });
 
-    pubs.sort(function (a, b) {
-      return (b.year || 0) - (a.year || 0);
-    });
-
+    pubs.sort(function (a, b) { return (b.year || 0) - (a.year || 0); });
     if (!pubs.length) {
       container.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">No publications found.</p>';
       return;
@@ -502,82 +728,88 @@ var PUBLICATIONS_DATA = {
       return parseInt(b, 10) - parseInt(a, 10);
     });
 
-    var counter = 1;
+    var nav = document.createElement('div'); nav.className = 'year-nav';
+    years.forEach(function (yr) {
+      var btn = document.createElement('button');
+      btn.className = 'year-nav-btn';
+      btn.textContent = yr;
+      btn.addEventListener('click', function () {
+        var id = 'pub-year-' + String(yr).replace(/[^a-z0-9_-]/gi, '-');
+        var header = document.getElementById(id);
+        if (header) header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      nav.appendChild(btn);
+    });
+    container.appendChild(nav);
+
     years.forEach(function (year) {
-      var yearHeader = document.createElement('h3');
-      yearHeader.textContent = year;
-      yearHeader.style.margin = '0.6em 0 0.2em 0.8em';
-      container.appendChild(yearHeader);
+      var safeYear = String(year).replace(/[^a-z0-9_-]/gi, '-');
+      var wrap = document.createElement('div'); wrap.className = 'year-block';
+
+      var header = document.createElement('div'); header.className = 'year-header'; header.id = 'pub-year-' + safeYear;
+      var h = document.createElement('h3'); h.textContent = year; h.className = 'pub-year-header'; header.appendChild(h);
+      var toggle = document.createElement('button'); toggle.className = 'year-toggle'; toggle.setAttribute('aria-expanded', 'true'); toggle.textContent = '\u2212'; header.appendChild(toggle);
+      wrap.appendChild(header);
+
+      var content = document.createElement('div'); content.className = 'year-content'; content.id = 'pub-year-content-' + safeYear; wrap.appendChild(content);
 
       byYear[year].forEach(function (p) {
-        var row = document.createElement('div');
-        row.className = 'ref';
+        var row = document.createElement('div'); row.className = 'ref';
+        var entry = document.createElement('div'); entry.className = 'ref-entry';
 
-        var numEl = document.createElement('div');
-        numEl.className = 'ref-num';
-        numEl.textContent = '[' + (counter++) + ']';
-
-        var entryEl = document.createElement('div');
-        entryEl.className = 'ref-entry';
-
-        var authorsHtml = escapeHtml(p.authors).replace(
-          /Sameera Horawalavithana/g,
-          '<b>Sameera Horawalavithana</b>'
-        );
-
-        var titleHtml = p.url
-          ? '<a href="' + escapeAttr(p.url) + '">' + escapeHtml(p.title) + '</a>'
-          : escapeHtml(p.title);
+        var authorsHtml = escapeHtml(p.authors || '').replace(/Sameera Horawalavithana/g, '<b>Sameera Horawalavithana</b>');
+        var titleHtml = p.url ? ('<a href="' + escapeAttr(p.url) + '">' + escapeHtml(p.title) + '</a>') : escapeHtml(p.title);
 
         var parts = [authorsHtml, titleHtml];
         if (p.venue) parts.push('<span style="font-style:italic">' + escapeHtml(p.venue) + '</span>');
-        if (p.year)  parts.push(String(p.year));
+        if (p.year) parts.push(String(p.year));
 
         var html = parts.join('. ');
+        if (p.award) html += ' <span class="pub-award">&#9733; ' + escapeHtml(p.award) + '</span>';
+        if (p.pdfUrl && p.pdfUrl !== p.url) html += ' <a class="pub-pdf-link" href="' + escapeAttr(p.pdfUrl) + '">[PDF]</a>';
 
-        if (p.award) {
-          html += ' <span class="pub-award">&#9733; ' + escapeHtml(p.award) + '</span>';
-        }
-        if (p.pdfUrl && p.pdfUrl !== p.url) {
-          html += ' <a class="pub-pdf-link" href="' + escapeAttr(p.pdfUrl) + '">[PDF]</a>';
-        }
-
-        entryEl.innerHTML = html;
-        row.appendChild(numEl);
-        row.appendChild(entryEl);
-        container.appendChild(row);
+        entry.innerHTML = html;
+        row.appendChild(entry);
+        content.appendChild(row);
       });
+
+      toggle.addEventListener('click', function () {
+        var expanded = toggle.getAttribute('aria-expanded') === 'true';
+        if (expanded) {
+          content.style.display = 'none';
+          toggle.textContent = '+';
+          toggle.setAttribute('aria-expanded', 'false');
+        } else {
+          content.style.display = '';
+          toggle.textContent = '\u2212';
+          toggle.setAttribute('aria-expanded', 'true');
+        }
+      });
+
+      container.appendChild(wrap);
     });
   }
 
   function renderTechnicalReports(container) {
-    (state.data.technicalReports || []).forEach(function (r, i) {
-      var row = document.createElement('div');
-      row.className = 'ref';
+    var reports = state.data.technicalReports || [];
+    if (!reports.length) {
+      container.innerHTML = '<p style="color:#666;font-style:italic;padding-left:0.8em">No technical reports available.</p>';
+      return;
+    }
 
-      var numEl = document.createElement('div');
-      numEl.className = 'ref-num';
-      numEl.textContent = '[' + (i + 1) + ']';
+    reports.forEach(function (r) {
+      var row = document.createElement('div'); row.className = 'ref';
+      var entry = document.createElement('div'); entry.className = 'ref-entry';
 
-      var entryEl = document.createElement('div');
-      entryEl.className = 'ref-entry';
+      var authorsHtml = escapeHtml(r.authors || '').replace(/Sameera Horawalavithana/g, '<b>Sameera Horawalavithana</b>');
+      var titleHtml = r.url ? ('<a href="' + escapeAttr(r.url) + '">' + escapeHtml(r.title) + '</a>') : escapeHtml(r.title);
 
-      var authorsHtml = escapeHtml(r.authors).replace(
-        /Sameera Horawalavithana/g,
-        '<b>Sameera Horawalavithana</b>'
-      );
-
-      var titleHtml = r.url
-        ? '<a href="' + escapeAttr(r.url) + '">' + escapeHtml(r.title) + '</a>'
-        : escapeHtml(r.title);
-
-      var html = '<b>' + authorsHtml + '</b>. ' + titleHtml;
+      var html = [authorsHtml, titleHtml].join('. ');
       if (r.description) html += '. ' + escapeHtml(r.description);
-      if (r.note)        html += '. <b>' + escapeHtml(r.note) + '</b>';
+      if (r.note) html += '. <b>' + escapeHtml(r.note) + '</b>';
 
-      entryEl.innerHTML = html;
-      row.appendChild(numEl);
-      row.appendChild(entryEl);
+      entry.innerHTML = html;
+      row.appendChild(entry);
       container.appendChild(row);
     });
   }
@@ -590,6 +822,19 @@ var PUBLICATIONS_DATA = {
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
   }
+
+  function escapeAttr(str) {
+    if (!str) return '';
+    return String(str).replace(/"/g, '&quot;');
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();
 
   function escapeAttr(str) {
     if (!str) return '';
