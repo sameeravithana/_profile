@@ -412,7 +412,19 @@
       "title": "NEPATEC 1.0: First Large-Scale Text Corpus of National Environmental Policy Act PDF Documents",
       "authors": "Shivam Sharma, Dan Nally, Mike Parker, Sai Munikoti, Sameera Horawalavithana",
       "venue": "",
-      "year": null,
+      "year": 2023,
+      "citations": 0,
+      "url": "",
+      "pdfUrl": "",
+      "topics": [
+        "ai-permitting"
+      ]
+    },
+    {
+      "title": "NEPATEC v2.0: Standardized Metadata and Text Corpus of National Environmental Policy Act Documents",
+      "authors": "Shivam Sharma, Dan Nally, Mike Parker, Sai Munikoti, Sameera Horawalavithana",
+      "venue": "",
+      "year": 2025,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
@@ -448,7 +460,7 @@
       "title": "DraftNEPABench: A Benchmark for Drafting NEPA Document Sections with Coding Agents",
       "authors": "Anurag Acharya, Bishal Lakha, Rounak Meyur, Rohan Nuttall, Sarthak Chaturvedi, Anika Tabassum, Sameera Horawalavithana, Sai Munikoti",
       "venue": "",
-      "year": null,
+      "year": 2026,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
