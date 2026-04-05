@@ -60,18 +60,6 @@
       ]
     },
     {
-      "title": "PermitQA: A Benchmark for Retrieval Augmented Generation in Wind Siting and Permitting Domain",
-      "authors": "Rounak Meyur, Hung Phan, Shivam Wagle, Jan Strube, Mahantesh Halappanavar, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "arXiv preprint",
-      "year": 2024,
-      "citations": 6,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-permitting"
-      ]
-    },
-    {
       "title": "WeQA: A Benchmark for Retrieval Augmented Generation in Wind Energy Domain",
       "authors": "Rounak Meyur, Hung Phan, Shivam Wagle, Jan Strube, Mahantesh Halappanavar, Sameera Horawalavithana, Sai Munikoti",
       "venue": "Proceedings of the Fourth Workshop on NLP for Positive Impact (NLP4PI)",
@@ -105,18 +93,6 @@
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
-      ]
-    },
-    {
-      "title": "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
-      "authors": "Ian Stewart, Sameera Horawalavithana, Brendan Kennedy, Sai Munikoti, Karl Pazdernik",
-      "venue": "arXiv preprint",
-      "year": 2024,
-      "citations": 5,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-science"
       ]
     },
     {
@@ -421,30 +397,6 @@
       ]
     },
     {
-      "title": "A Weighted Network Analysis of User Migrations in a Social Network",
-      "authors": "Malith Senaweera, Ruchira Dissanayake, Nuwini Chamindi, Anupa Shyamalal, Charitha Elvitigala, Sameera Horawalavithana",
-      "venue": "International Conference on Advances in ICT for Emerging Regions (ICTer) 2018",
-      "year": 2018,
-      "citations": 11,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-science"
-      ]
-    },
-    {
-      "title": "The Influence of Community Interactions on User Affinity in Social Networks: A Facebook Case Study",
-      "authors": "Malith Senaweera, Ruchira Dissanayake, Nuwini Chamindi, Anupa Shyamlal, Charitha Elvitigala, Sameera Horawalavithana",
-      "venue": "National Information Technology Conference (NITC) 2018",
-      "year": 2018,
-      "citations": 3,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-science"
-      ]
-    },
-    {
       "title": "An Empirical Study on Team Formation in Online Games",
       "authors": "Essa Alhazmi, Sameera Horawalavithana, John Skvoretz, Jeremy Blackburn, Adriana Iamnitchi",
       "venue": "International Conference on Advances in Social Networks Analysis and Mining (ASONAM) 2017",
@@ -497,42 +449,6 @@
       "authors": "Anurag Acharya, Bishal Lakha, Rounak Meyur, Rohan Nuttall, Sarthak Chaturvedi, Anika Tabassum, Sameera Horawalavithana, Sai Munikoti",
       "venue": "",
       "year": null,
-      "citations": 0,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-permitting"
-      ]
-    },
-    {
-      "title": "The PermitAI Application Suite and GeoAI Testbed for Accelerating Permitting",
-      "authors": "Anastasia Bernat, Heng Wan, Cleve Davis, Anusha Devulapally, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "AGU25",
-      "year": 2025,
-      "citations": 0,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-permitting"
-      ]
-    },
-    {
-      "title": "Building the Foundation for Georeferencing: A Preprocessing Workflow for NEPA Map Images",
-      "authors": "Heng Wan, Anusha Devulapally, Sridevi Wagle, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "AGU25",
-      "year": 2025,
-      "citations": 0,
-      "url": "",
-      "pdfUrl": "",
-      "topics": [
-        "ai-permitting"
-      ]
-    },
-    {
-      "title": "Cross-Modal Validation and Refinement for Scalable Digitization of NEPA Map Features",
-      "authors": "Anusha Devulapally, Heng Wan, Cleve Davis, Benjamin Chauhan, Micah Taylor, Anurag Acharya, Sameera Horawalavithana, Sai Munikoti",
-      "venue": "AGU25",
-      "year": 2025,
       "citations": 0,
       "url": "",
       "pdfUrl": "",
