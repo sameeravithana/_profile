@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05",
+  "lastUpdated": "2026-04-12",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
   "removed_titles": [
     "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
@@ -17,7 +17,7 @@
       "venue": "Neurocomputing",
       "year": 2026,
       "citations": 17,
-      "url": "",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231226003309",
       "pdfUrl": "",
       "topics": [
         "ai-science"
@@ -29,7 +29,7 @@
       "venue": "arXiv preprint",
       "year": 2025,
       "citations": 0,
-      "url": "",
+      "url": "https://arxiv.org/abs/2507.08109",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
@@ -41,7 +41,7 @@
       "venue": "Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration",
       "year": 2025,
       "citations": 1,
-      "url": "",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3708035.3736038",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
@@ -53,7 +53,7 @@
       "venue": "KDD Workshop on Evaluation and Trustworthiness of Agentic and Generative AI Models",
       "year": 2025,
       "citations": 0,
-      "url": "",
+      "url": "https://arxiv.org/abs/2506.21581",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
@@ -77,7 +77,7 @@
       "venue": "NLP4SCIENCE Workshop, EMNLP 2024",
       "year": 2024,
       "citations": 43,
-      "url": "",
+      "url": "https://aclanthology.org/2024.nlp4science-1.7/",
       "pdfUrl": "",
       "topics": [
         "ai-science"
@@ -89,7 +89,7 @@
       "venue": "Workshop on Large Language Models for Scientific and Societal Advances (SciSoc LLM), 2025 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
       "year": 2024,
       "citations": 19,
-      "url": "",
+      "url": "https://arxiv.org/abs/2407.07321",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
@@ -113,7 +113,7 @@
       "venue": "Scientific Document Understanding, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
       "citations": 9,
-      "url": "",
+      "url": "https://arxiv.org/abs/2311.09358",
       "pdfUrl": "",
       "topics": [
         "ai-science"
@@ -125,7 +125,7 @@
       "venue": "AI to Accelerate Science and Engineering, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
       "citations": 29,
-      "url": "",
+      "url": "https://arxiv.org/abs/2311.12289",
       "pdfUrl": "",
       "topics": [
         "ai-science"
@@ -137,7 +137,7 @@
       "venue": "Workshop on Scholarly Document Processing (SDP), EMNLP 2023",
       "year": 2023,
       "citations": 13,
-      "url": "",
+      "url": "https://aclanthology.org/2024.sdp-1.8/",
       "pdfUrl": "",
       "topics": [
         "ai-science"
@@ -149,7 +149,7 @@
       "venue": "IEEE Transactions on Computational Social Systems",
       "year": 2023,
       "citations": 2,
-      "url": "",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10595052/",
       "pdfUrl": "https://arxiv.org/pdf/2307.09665",
       "topics": [
         "ai-national-security"
@@ -161,7 +161,7 @@
       "venue": "arXiv preprint",
       "year": 2023,
       "citations": 11,
-      "url": "",
+      "url": "https://arxiv.org/abs/2310.10920",
       "pdfUrl": "",
       "topics": [
         "ai-national-security"
@@ -209,7 +209,7 @@
       "venue": "Social Network Analysis and Mining",
       "year": 2022,
       "citations": 11,
-      "url": "",
+      "url": "https://link.springer.com/article/10.1007/s13278-022-00927-3",
       "pdfUrl": "",
       "topics": [
         "ai-simulation"
@@ -232,8 +232,8 @@
       "authors": "Kin Wai Ng, Sameera Horawalavithana, Adriana Iamnitchi",
       "venue": "ICWSM Workshops 2021",
       "year": 2021,
-      "citations": 9,
-      "url": "",
+      "citations": 5,
+      "url": "https://workshop-proceedings.icwsm.org/pdf/2021_36.pdf",
       "pdfUrl": "",
       "topics": [
         "ai-national-security"
@@ -245,7 +245,7 @@
       "venue": "International Conference on Advances in Social Networks Analysis and Mining (ASONAM) 2021",
       "year": 2021,
       "citations": 7,
-      "url": "",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3487351.3488344",
       "pdfUrl": "",
       "topics": [
         "ai-simulation"
@@ -306,7 +306,7 @@
       "venue": "arXiv preprint",
       "year": 2020,
       "citations": 10,
-      "url": "",
+      "url": "https://arxiv.org/abs/2004.12373",
       "pdfUrl": "",
       "topics": [
         "ai-simulation"
@@ -318,7 +318,7 @@
       "venue": "arXiv preprint",
       "year": 2019,
       "citations": 5,
-      "url": "",
+      "url": "https://arxiv.org/abs/1907.01695",
       "pdfUrl": "",
       "topics": [
         "ai-national-security"
@@ -330,7 +330,7 @@
       "venue": "IEEE International Conference on Systems, Man and Cybernetics (SMC) 2019",
       "year": 2019,
       "citations": 11,
-      "url": "",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8914586/",
       "pdfUrl": "",
       "topics": [
         "ai-simulation"
@@ -390,7 +390,7 @@
       "venue": "International Workshop on Complex Networks & Their Applications 2018",
       "year": 2018,
       "citations": 5,
-      "url": "",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-05414-4_32",
       "pdfUrl": "",
       "topics": [
         "ai-national-security"
@@ -438,7 +438,7 @@
       "venue": "",
       "year": 2022,
       "citations": 4,
-      "url": "",
+      "url": "https://openreview.net/forum?id=7UudBVsIrr",
       "pdfUrl": "",
       "topics": [
         "ai-science"
@@ -450,7 +450,7 @@
       "venue": "AGU Fall Meeting 2024",
       "year": 2024,
       "citations": 0,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/abs/2024AGUFMGC33D0165B/abstract",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
@@ -462,11 +462,110 @@
       "venue": "",
       "year": 2026,
       "citations": 0,
-      "url": "",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/PREPRINT_PNNL_PolicyAI_DraftNEPABench_OpenAI.pdf",
       "pdfUrl": "",
       "topics": [
         "ai-permitting"
       ]
+    },
+    {
+      "title": "Diversity, topology, and the risk of node re-identification in labeled social graphs",
+      "authors": "Sameera Horawalavithana and Clayton Gandy and Juan Arroyo Flores and John Skvoretz and Adriana Iamnitchi",
+      "venue": "arXiv preprint arXiv:1808.10837",
+      "year": 2018,
+      "citations": 4,
+      "url": "https://arxiv.org/abs/1808.10837",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Social-media activity forecasting with exogenous information signals",
+      "authors": "Kin Wai Ng and Sameera Horawalavithana and Adriana Iamnitchi",
+      "venue": "arXiv preprint arXiv:2109.11024",
+      "year": 2021,
+      "citations": 2,
+      "url": "https://arxiv.org/abs/2109.11024",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "pnnl/SciTune",
+      "authors": "Sameera Horawalavithana and Sai Munikoti and Ian Stewart and Henry Kvinge",
+      "venue": "",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://www.osti.gov/servlets/purl/code-149966",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Web Science 2024: Conference Chairs' Welcome Message",
+      "authors": "Steffen Staab and Luca Maria Aiello and Yelena Mejova and Oshani Seneviratne and Cornelia Sindermann and Thilo Hagendorff and Simone Brandes and Juliane Rohlmann and Marc Spaniol and Katharina Kinder-Kurlanda and Agnieszka Faleńska and Raphael Heiberger and Jun Sun and Sierra Kaiser and Munmun De Choudhury and Matthew Weber and Gianmarco De Francisci Morales and Adam Dunn and Ujwal Gadiraju and Sabrina Gaito and Silas Hooper and Marco Alberto Javarone and Kyriaki Kalimeri and Haewoon Kwak and Suman Kalyan Maity and Afra Mashhadi and Eni Mustafaraj and Hemant Purohit and Giulio Rossetti and Nishanth Sastry and Srinath Srinivasa and Pedro Vaz-De-Melo and Mark Weal and Ingmar Weber and Tim Weninger and Mark Withing and Arkaitz Zubiaga and Dirk Ahlers and Reham Al Tamime and Sawood Alam and Hamed Alhoori and Panagiotis Andriotis and Dominik Bär and Mark Bernstein and Ludovico Boratto and Chico Camargo and Arthur Capozzi and Charalampos Chelmis and Carolina Coimbra Vieira and Pasquale De Meo and Ly Dinh and Renata Dividino and Stephan Doerfel and Reza Farahbakhsh and Carlos HG Ferreira and Claudia Flores-Saviaga and Komal Florio and Alessia Galdeman and Cheng Guo and Sherzod Hakimov and Radin Hamidi Rad and Denis Helic and Marilena Hohmann and Sameera Horawalavithana and Benjamin Horne and Luis Ibanez-Gonzalez and Julie Jiang and Shawn Jones and Maulik R Kamdar and Hsien Te Kao and Yonas Mitike Kassa and Andrej Kastrin and Kazuhiro Kazama and Mat Kelly and Akib Khanday and Aparup Khatua and Ashiqur Khudabukhsh and Frank Krüger and Neha Kumari and Mirko Lai and Hemank Lamba and Roy Ka Wei Lee and Eun Lee and Yiming Liao and Wenqing Lin and Thomas Magelinski and Matteo Magnani and Benjamin Mako Hill and Lydia Manikonda and Sarah Masud and Soufiana Mekouar and Anders Giovanni Møller and Sakthi Muthiah and Congning Ni and Joel Nishimura and Alexander Nwala and Arianna Pera and Guangyuan Piao and Tiziano Piccardi and Francesco Pierri",
+      "venue": "Proceedings of the 16th ACM Web Science Conference, WebSci 2024",
+      "year": 2024,
+      "citations": 0,
+      "url": "https://repository.tudelft.nl/file/File_d9b30197-2e73-4caa-b4ee-a1775a85e91c",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "pnnl/EXPERT2",
+      "authors": "Sameera Horawalavithana and Sai Munikoti and Sridevi Wagle and Anurag Acharya and Shivam Sharma",
+      "venue": "US Department of Energy (DOE) Software",
+      "year": 2023,
+      "citations": 0,
+      "url": "https://ui.adsabs.harvard.edu/abs/2023doe..soft..229H/abstract",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Temporal Patterns of Motifs",
+      "authors": "Sameera Horawalavithana",
+      "venue": "",
+      "year": 2017,
+      "citations": 0,
+      "url": "https://sameeravithana.github.io/_profile/dl/temporal-patterns-of-motifs_sameera.pdf",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "NEPATEC1. 0: First Large-Scale Text Corpus of National Environmental Policy Act PDF Documents",
+      "authors": "Shivam Sharma and Dan Nally and Mike J Parker and Sai Munikoti and Sameera Horawalavithana",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/PNNL_PolicyAI_Dataset_Model_Release_IR_06_26.pdf",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Object state recognition for learning manipulation tasks in robotics",
+      "authors": "Sameera Horawalavithana",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://sameeravithana.github.io/_profile/dl/cnn.pdf",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Estimating Measurement Probability Distributions with Mixture Density Networks",
+      "authors": "Sameera Horawalavithana",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://sameeravithana.github.io/_profile/dl/mdn.pdf",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
     }
   ],
   "technicalReports": [
