@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12",
+  "lastUpdated": "2026-04-19",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
   "removed_titles": [
     "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
@@ -76,7 +76,7 @@
       "authors": "Sameera Horawalavithana, Sai Munikoti, Ian Stewart, Henry Kvinge, Karl Pazdernik",
       "venue": "NLP4SCIENCE Workshop, EMNLP 2024",
       "year": 2024,
-      "citations": 43,
+      "citations": 45,
       "url": "https://aclanthology.org/2024.nlp4science-1.7/",
       "pdfUrl": "",
       "topics": [
@@ -160,7 +160,7 @@
       "authors": "Anurag Acharya, Sai Munikoti, Aaron Hellinger, Sara Smith, Shivam Wagle, Sameera Horawalavithana",
       "venue": "arXiv preprint",
       "year": 2023,
-      "citations": 11,
+      "citations": 12,
       "url": "https://arxiv.org/abs/2310.10920",
       "pdfUrl": "",
       "topics": [
@@ -293,7 +293,7 @@
       "authors": "Sameera Horawalavithana, Kin Wai Ng, Adriana Iamnitchi",
       "venue": "International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction (SBP-BRiMS) 2020",
       "year": 2020,
-      "citations": 21,
+      "citations": 22,
       "url": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
       "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
       "topics": [
@@ -563,6 +563,17 @@
       "year": null,
       "citations": 0,
       "url": "https://sameeravithana.github.io/_profile/dl/mdn.pdf",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Back to the Barn with LLAMAs: Evolving Pretrained LLM Backbones in Finetuning Vision Language Models",
+      "authors": "Sameera Horawalavithana and Lauren Phillips and Ian Stewart and Sai Munikoti and Karl Pazdernik",
+      "venue": "arXiv preprint arXiv:2604.10985",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2604.10985",
       "pdfUrl": "",
       "topics": [],
       "tags": []
