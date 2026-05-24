@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19",
+  "lastUpdated": "2026-05-24",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
   "removed_titles": [
     "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
@@ -16,7 +16,7 @@
       "authors": "Sai Munikoti, Ian Stewart, Sameera Horawalavithana, Henry Kvinge, Tegan Emerson, Sandra Barr, Karl Pazdernik",
       "venue": "Neurocomputing",
       "year": 2026,
-      "citations": 17,
+      "citations": 19,
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231226003309",
       "pdfUrl": "",
       "topics": [
@@ -28,7 +28,7 @@
       "authors": "Reilly Raab, Mike Parker, Dan Nally, Sadie Montgomery, Anastasia Bernat, Sai Munikoti, Sameera Horawalavithana",
       "venue": "arXiv preprint",
       "year": 2025,
-      "citations": 0,
+      "citations": 1,
       "url": "https://arxiv.org/abs/2507.08109",
       "pdfUrl": "",
       "topics": [
@@ -76,7 +76,7 @@
       "authors": "Sameera Horawalavithana, Sai Munikoti, Ian Stewart, Henry Kvinge, Karl Pazdernik",
       "venue": "NLP4SCIENCE Workshop, EMNLP 2024",
       "year": 2024,
-      "citations": 45,
+      "citations": 48,
       "url": "https://aclanthology.org/2024.nlp4science-1.7/",
       "pdfUrl": "",
       "topics": [
@@ -88,7 +88,7 @@
       "authors": "Rounak Meyur, Hung Phan, Koby Hayashi, Ian Stewart, Shivam Sharma, Sarthak Chaturvedi, Mike Parker, Dan Nally, ..., Sameera Horawalavithana, Anurag Acharya",
       "venue": "Workshop on Large Language Models for Scientific and Societal Advances (SciSoc LLM), 2025 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
       "year": 2024,
-      "citations": 19,
+      "citations": 21,
       "url": "https://arxiv.org/abs/2407.07321",
       "pdfUrl": "",
       "topics": [
@@ -100,7 +100,7 @@
       "authors": "Adriana Iamnitchi, Lawrence O. Hall, Sameera Horawalavithana, Frederick Mubang, Nazim Choudhury",
       "venue": "Frontiers in Big Data",
       "year": 2023,
-      "citations": 20,
+      "citations": 22,
       "url": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191",
       "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191/pdf",
       "topics": [
@@ -124,7 +124,7 @@
       "authors": "Sai Munikoti, Anurag Acharya, Sridevi Wagle, Sameera Horawalavithana",
       "venue": "AI to Accelerate Science and Engineering, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
-      "citations": 29,
+      "citations": 31,
       "url": "https://arxiv.org/abs/2311.12289",
       "pdfUrl": "",
       "topics": [
@@ -136,7 +136,7 @@
       "authors": "Sai Munikoti, Anurag Acharya, Shivam Wagle, Sameera Horawalavithana",
       "venue": "Workshop on Scholarly Document Processing (SDP), EMNLP 2023",
       "year": 2023,
-      "citations": 13,
+      "citations": 14,
       "url": "https://aclanthology.org/2024.sdp-1.8/",
       "pdfUrl": "",
       "topics": [
@@ -160,7 +160,7 @@
       "authors": "Anurag Acharya, Sai Munikoti, Aaron Hellinger, Sara Smith, Shivam Wagle, Sameera Horawalavithana",
       "venue": "arXiv preprint",
       "year": 2023,
-      "citations": 12,
+      "citations": 14,
       "url": "https://arxiv.org/abs/2310.10920",
       "pdfUrl": "",
       "topics": [
@@ -172,7 +172,7 @@
       "authors": "Sameera Horawalavithana, Ellyn Ayton, Shivam Sharma, Scott Howland, Megha Subramanian, Scott Vasquez, Robin Cosbey, Maria Glenski, Svitlana Volkova",
       "venue": "BigScience #5, Challenges & Perspectives in Creating Large Language Models, ACL 2022",
       "year": 2022,
-      "citations": 36,
+      "citations": 37,
       "url": "https://aclanthology.org/2022.bigscience-1.12",
       "pdfUrl": "https://aclanthology.org/2022.bigscience-1.12.pdf",
       "topics": [
@@ -208,7 +208,7 @@
       "authors": "Kin Wai Ng, Sameera Horawalavithana, Adriana Iamnitchi",
       "venue": "Social Network Analysis and Mining",
       "year": 2022,
-      "citations": 11,
+      "citations": 13,
       "url": "https://link.springer.com/article/10.1007/s13278-022-00927-3",
       "pdfUrl": "",
       "topics": [
@@ -256,7 +256,7 @@
       "authors": "Sameera Horawalavithana, Nazim Choudhury, John Skvoretz, Adriana Iamnitchi",
       "venue": "Computational and Mathematical Organization Theory 2021",
       "year": 2021,
-      "citations": 15,
+      "citations": 18,
       "url": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
       "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/v4_CASCADES_LSTM_CMOT.pdf",
       "topics": [
@@ -461,7 +461,7 @@
       "authors": "Anurag Acharya, Bishal Lakha, Rounak Meyur, Rohan Nuttall, Sarthak Chaturvedi, Anika Tabassum, Sameera Horawalavithana, Sai Munikoti",
       "venue": "",
       "year": 2026,
-      "citations": 0,
+      "citations": 1,
       "url": "https://www.pnnl.gov/sites/default/files/media/file/PREPRINT_PNNL_PolicyAI_DraftNEPABench_OpenAI.pdf",
       "pdfUrl": "",
       "topics": [
@@ -574,6 +574,50 @@
       "year": 2026,
       "citations": 0,
       "url": "https://arxiv.org/abs/2604.10985",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "SCICONVBENCH: Benchmarking LLMs on Multi-Turn Clarification for Task Formulation in Computational Science",
+      "authors": "Nithin Somasekharan and Youssef Hassan and Shiyao Lin and Gihan Panapitiya and Patrick Emami and Anurag Acharya and Sameera Horawalavithana and Shaowu Pan",
+      "venue": "arXiv preprint arXiv:2605.18630",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2605.18630",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Evaluating Memory Condensation Strategies for Coding Agents in Data-Driven Scientific Discovery",
+      "authors": "Renuka Chintalapati and Sid Raskar and Anurag Acharya and Jared Willard and Patrick Emami and Sameera Horawalavithana",
+      "venue": "arXiv preprint arXiv:2605.18854",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2605.18854",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Reward Design for Physical Reasoning in Vision-Language Models",
+      "authors": "Derek Lilienthal and Manisha Mukherjee and Sameera Horawalavithana",
+      "venue": "arXiv preprint arXiv:2604.13993",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2604.13993",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Auditing the Performance and Calibration of Multi-Modal Large Language Models",
+      "authors": "Brendan Kennedy and Lauren Phillips and Sai Munikoti and Sameera Horawalavithana and Ian Stewart and Karl Pazdernik",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://openreview.net/forum?id=GvKCs3aQWz",
       "pdfUrl": "",
       "topics": [],
       "tags": []
