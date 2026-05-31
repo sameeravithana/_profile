@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-05-31",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
   "removed_titles": [
     "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
@@ -16,7 +16,7 @@
       "authors": "Sai Munikoti, Ian Stewart, Sameera Horawalavithana, Henry Kvinge, Tegan Emerson, Sandra Barr, Karl Pazdernik",
       "venue": "Neurocomputing",
       "year": 2026,
-      "citations": 19,
+      "citations": 20,
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231226003309",
       "pdfUrl": "",
       "topics": [
@@ -76,7 +76,7 @@
       "authors": "Sameera Horawalavithana, Sai Munikoti, Ian Stewart, Henry Kvinge, Karl Pazdernik",
       "venue": "NLP4SCIENCE Workshop, EMNLP 2024",
       "year": 2024,
-      "citations": 48,
+      "citations": 47,
       "url": "https://aclanthology.org/2024.nlp4science-1.7/",
       "pdfUrl": "",
       "topics": [
@@ -88,7 +88,7 @@
       "authors": "Rounak Meyur, Hung Phan, Koby Hayashi, Ian Stewart, Shivam Sharma, Sarthak Chaturvedi, Mike Parker, Dan Nally, ..., Sameera Horawalavithana, Anurag Acharya",
       "venue": "Workshop on Large Language Models for Scientific and Societal Advances (SciSoc LLM), 2025 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
       "year": 2024,
-      "citations": 21,
+      "citations": 22,
       "url": "https://arxiv.org/abs/2407.07321",
       "pdfUrl": "",
       "topics": [
@@ -100,7 +100,7 @@
       "authors": "Adriana Iamnitchi, Lawrence O. Hall, Sameera Horawalavithana, Frederick Mubang, Nazim Choudhury",
       "venue": "Frontiers in Big Data",
       "year": 2023,
-      "citations": 22,
+      "citations": 23,
       "url": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191",
       "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191/pdf",
       "topics": [
@@ -305,7 +305,7 @@
       "authors": "Sameera Horawalavithana, John Skvoretz, Adriana Iamnitchi",
       "venue": "arXiv preprint",
       "year": 2020,
-      "citations": 10,
+      "citations": 11,
       "url": "https://arxiv.org/abs/2004.12373",
       "pdfUrl": "",
       "topics": [
@@ -461,7 +461,7 @@
       "authors": "Anurag Acharya, Bishal Lakha, Rounak Meyur, Rohan Nuttall, Sarthak Chaturvedi, Anika Tabassum, Sameera Horawalavithana, Sai Munikoti",
       "venue": "",
       "year": 2026,
-      "citations": 1,
+      "citations": 2,
       "url": "https://www.pnnl.gov/sites/default/files/media/file/PREPRINT_PNNL_PolicyAI_DraftNEPABench_OpenAI.pdf",
       "pdfUrl": "",
       "topics": [
@@ -618,6 +618,17 @@
       "year": null,
       "citations": 0,
       "url": "https://openreview.net/forum?id=GvKCs3aQWz",
+      "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "MULTISEISMO: A Multimodal Seismic Dataset and Model for Cross-Modal Seismic Understanding",
+      "authors": "Sai Munikoti and Ian Stewart and Chengping Chai and Lisa Linville and Scott Vasquez and Sameera Horawalavithana and Karl Pazdernik",
+      "venue": "arXiv preprint arXiv:2605.26320",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2605.26320",
       "pdfUrl": "",
       "topics": [],
       "tags": []
