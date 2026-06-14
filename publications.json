@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-14",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
   "removed_titles": [
     "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
@@ -100,7 +100,7 @@
       "authors": "Adriana Iamnitchi, Lawrence O. Hall, Sameera Horawalavithana, Frederick Mubang, Nazim Choudhury",
       "venue": "Frontiers in Big Data",
       "year": 2023,
-      "citations": 23,
+      "citations": 25,
       "url": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191",
       "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1135191/pdf",
       "topics": [
@@ -280,7 +280,7 @@
       "authors": "Sameera Horawalavithana, Ravindu De Silva, Mohamed Nabeel, Charitha Elvitigala, Primal Wijesekara, Adriana Iamnitchi",
       "venue": "International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction (SBP-BRiMS) 2021",
       "year": 2021,
-      "citations": 7,
+      "citations": 8,
       "url": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
       "pdfUrl": "https://www.cse.usf.edu/dsg/data/publications/papers/megaphone-sameera-brims20.pdf",
       "topics": [
@@ -365,7 +365,7 @@
       "authors": "Sameera Horawalavithana, Abhishek Bhattacharjee, Renhao Liu, Nazim Choudhury, Lawrence O. Hall, Adriana Iamnitchi",
       "venue": "IEEE/WIC/ACM International Conference on Web Intelligence 2019",
       "year": 2019,
-      "citations": 91,
+      "citations": 92,
       "url": "https://dl.acm.org/doi/10.1145/3350546.3352519",
       "pdfUrl": "https://dl.acm.org/doi/pdf/10.1145/3350546.3352519",
       "topics": [
@@ -605,7 +605,7 @@
       "authors": "Derek Lilienthal and Manisha Mukherjee and Sameera Horawalavithana",
       "venue": "arXiv preprint arXiv:2604.13993",
       "year": 2026,
-      "citations": 0,
+      "citations": 1,
       "url": "https://arxiv.org/abs/2604.13993",
       "pdfUrl": "",
       "topics": [],
