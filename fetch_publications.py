@@ -22,8 +22,10 @@ Run locally or via the GitHub Actions workflow (.github/workflows/update_publica
 """
 
 import json
+import os
 import re
 import sys
+import time
 from datetime import date
 from pathlib import Path
 
@@ -36,26 +38,75 @@ def normalize(title: str) -> str:
     return re.sub(r"[^a-z0-9 ]", "", title.lower()).strip()
 
 
-def fetch_from_scholar(scholar_id: str) -> list[dict]:
+def with_retries(fn, what: str, attempts: int = 4):
+    """Call fn(), retrying with exponential backoff (Scholar rate-limits CI IPs)."""
+    for i in range(1, attempts + 1):
+        try:
+            return fn()
+        except Exception as e:
+            if i == attempts:
+                raise
+            wait = 30 * 2 ** (i - 1)
+            print(f"  {what} failed ({type(e).__name__}: {e}); retry {i}/{attempts - 1} in {wait}s")
+            time.sleep(wait)
+
+
+def setup_proxy(scholarly) -> None:
+    """Route requests through ScraperAPI if SCRAPER_API_KEY is set.
+
+    Google Scholar blocks most GitHub Actions IPs, so a proxy makes the
+    scheduled workflow reliable. Without a key we connect directly.
+    """
+    key = os.environ.get("SCRAPER_API_KEY")
+    if not key:
+        return
+    from scholarly import ProxyGenerator  # type: ignore
+
+    pg = ProxyGenerator()
+    if pg.ScraperAPI(key):
+        scholarly.use_proxy(pg)
+        print("Using ScraperAPI proxy")
+    else:
+        print("Warning: ScraperAPI proxy setup failed — connecting directly")
+
+
+def fetch_from_scholar(scholar_id: str, known_titles: set[str]) -> list[dict]:
+    """Fetch the author's publication list.
+
+    Only papers whose normalized title is NOT in known_titles are filled
+    individually (one extra request each); for known papers the profile
+    listing already has everything merge() uses (title + citation count).
+    This keeps a typical run to ~2 requests instead of one per paper.
+    """
     try:
         from scholarly import scholarly  # type: ignore
     except ImportError:
         sys.exit("scholarly is not installed. Run: pip install scholarly")
 
+    setup_proxy(scholarly)
+
     print(f"Fetching author profile for {scholar_id} …")
-    author = scholarly.search_author_id(scholar_id)
-    author = scholarly.fill(author, sections=["basics", "publications"])
+    author = with_retries(
+        lambda: scholarly.fill(
+            scholarly.search_author_id(scholar_id),
+            sections=["basics", "publications"],
+        ),
+        "author profile fetch",
+    )
 
     results = []
     pubs = author.get("publications", [])
     print(f"Found {len(pubs)} publications on Google Scholar")
 
     for pub in pubs:
-        try:
-            filled = scholarly.fill(pub)
-        except Exception as e:
-            print(f"  Warning: could not fill pub — {e}")
+        if normalize(pub.get("bib", {}).get("title", "")) in known_titles:
             filled = pub
+        else:
+            try:
+                filled = with_retries(lambda: scholarly.fill(pub), "pub fill", attempts=2)
+            except Exception as e:
+                print(f"  Warning: could not fill pub — {e}")
+                filled = pub
 
         bib = filled.get("bib", {})
         results.append(
@@ -166,7 +217,9 @@ def main():
     with open(JSON_PATH, encoding="utf-8") as f:
         existing = json.load(f)
 
-    fresh = fetch_from_scholar(SCHOLAR_ID)
+    known = {normalize(p["title"]) for p in existing.get("publications", [])}
+    known |= {normalize(t) for t in existing.get("removed_titles", [])}
+    fresh = fetch_from_scholar(SCHOLAR_ID, known)
 
     merged = merge(existing, fresh)
 

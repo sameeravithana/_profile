@@ -9,6 +9,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       contents: write
 
@@ -27,6 +28,10 @@ jobs:
         run: pip install scholarly
 
       - name: Fetch latest publications
+        env:
+          # Optional: Google Scholar blocks most GitHub runner IPs. Add a
+          # ScraperAPI key as a repo secret to route requests through a proxy.
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python fetch_publications.py
 
       - name: Commit updated publications.json (if changed)
