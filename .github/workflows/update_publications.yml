@@ -25,7 +25,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install scholarly
-        run: pip install scholarly
+        run: python -m pip install scholarly "bibtexparser<2"
 
       - name: Fetch latest publications
         env:
