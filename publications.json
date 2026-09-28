@@ -16,7 +16,7 @@
       "authors": "Sai Munikoti, Ian Stewart, Sameera Horawalavithana, Henry Kvinge, Tegan Emerson, Sandra Barr, Karl Pazdernik",
       "venue": "Neurocomputing",
       "year": 2026,
-      "citations": 0,
+      "citations": 20,
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231226003309",
       "pdfUrl": "",
       "topics": [
@@ -569,47 +569,51 @@
     },
     {
       "title": "Back to the Barn with LLAMAs: Evolving Pretrained LLM Backbones in Finetuning Vision Language Models",
-      "authors": "Sameera Horawalavithana and Lauren Phillips and Ian Stewart and Sai Munikoti and Karl Pazdernik",
-      "venue": "arXiv preprint arXiv:2604.10985",
+      "authors": "Sameera Horawalavithana, Lauren Phillips, Ian Stewart, Sai Munikoti, Karl Pazdernik",
+      "venue": "arXiv preprint",
       "year": 2026,
       "citations": 0,
       "url": "https://arxiv.org/abs/2604.10985",
       "pdfUrl": "",
-      "topics": [],
-      "tags": []
+      "topics": [
+        "ai-science"
+      ]
     },
     {
       "title": "SCICONVBENCH: Benchmarking LLMs on Multi-Turn Clarification for Task Formulation in Computational Science",
-      "authors": "Nithin Somasekharan and Youssef Hassan and Shiyao Lin and Gihan Panapitiya and Patrick Emami and Anurag Acharya and Sameera Horawalavithana and Shaowu Pan",
-      "venue": "arXiv preprint arXiv:2605.18630",
+      "authors": "Nithin Somasekharan, Youssef Hassan, Shiyao Lin, Gihan Panapitiya, Patrick Emami, Anurag Acharya, Sameera Horawalavithana, Shaowu Pan",
+      "venue": "arXiv preprint",
       "year": 2026,
       "citations": 1,
       "url": "https://arxiv.org/abs/2605.18630",
       "pdfUrl": "",
-      "topics": [],
-      "tags": []
+      "topics": [
+        "ai-science"
+      ]
     },
     {
       "title": "Evaluating Memory Condensation Strategies for Coding Agents in Data-Driven Scientific Discovery",
-      "authors": "Renuka Chintalapati and Sid Raskar and Anurag Acharya and Jared Willard and Patrick Emami and Sameera Horawalavithana",
-      "venue": "arXiv preprint arXiv:2605.18854",
+      "authors": "Renuka Chintalapati, Sid Raskar, Anurag Acharya, Jared Willard, Patrick Emami, Sameera Horawalavithana",
+      "venue": "arXiv preprint",
       "year": 2026,
       "citations": 0,
       "url": "https://arxiv.org/abs/2605.18854",
       "pdfUrl": "",
-      "topics": [],
-      "tags": []
+      "topics": [
+        "ai-science"
+      ]
     },
     {
       "title": "Reward Design for Physical Reasoning in Vision-Language Models",
-      "authors": "Derek Lilienthal and Manisha Mukherjee and Sameera Horawalavithana",
-      "venue": "arXiv preprint arXiv:2604.13993",
+      "authors": "Derek Lilienthal, Manisha Mukherjee, Sameera Horawalavithana",
+      "venue": "arXiv preprint",
       "year": 2026,
       "citations": 1,
       "url": "https://arxiv.org/abs/2604.13993",
       "pdfUrl": "",
-      "topics": [],
-      "tags": []
+      "topics": [
+        "ai-science"
+      ]
     },
     {
       "title": "Auditing the Performance and Calibration of Multi-Modal Large Language Models",
@@ -624,25 +628,27 @@
     },
     {
       "title": "MULTISEISMO: A Multimodal Seismic Dataset and Model for Cross-Modal Seismic Understanding",
-      "authors": "Sai Munikoti and Ian Stewart and Chengping Chai and Lisa Linville and Scott Vasquez and Sameera Horawalavithana and Karl Pazdernik",
-      "venue": "arXiv preprint arXiv:2605.26320",
+      "authors": "Sai Munikoti, Ian Stewart, Chengping Chai, Lisa Linville, Scott Vasquez, Sameera Horawalavithana, Karl Pazdernik",
+      "venue": "arXiv preprint",
       "year": 2026,
       "citations": 0,
       "url": "https://arxiv.org/abs/2605.26320",
       "pdfUrl": "",
-      "topics": [],
-      "tags": []
+      "topics": [
+        "ai-science"
+      ]
     },
     {
       "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
-      "authors": "",
-      "venue": "arXiv",
-      "year": "2026",
+      "authors": "Patrick Emami, Sameera Horawalavithana, Truc Nguyen, Gihan Panapitiya, Bruno Jacob, Siddhisanket Raskar, Saumya Sinha, Jared D. Willard, Andrew Glaws, Nithin Somasekharan, Ling Yue, Brian Lu, Shaowu Pan, Jason Eisner",
+      "venue": "2nd Workshop on Language Models for Scientific Discovery, COLM 2026",
+      "year": 2026,
       "citations": 0,
       "url": "https://arxiv.org/abs/2608.14667",
       "pdfUrl": "https://arxiv.org/pdf/2608.14667",
-      "topics": [],
-      "tags": []
+      "topics": [
+        "ai-science"
+      ]
     }
   ],
   "technicalReports": [
