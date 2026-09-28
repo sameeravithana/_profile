@@ -140,8 +140,29 @@ def _first(d: dict, *keys):
     return None
 
 
+# get_researcher_papers returns Markdown, one paper per line, e.g.
+#   - [ID=2311.12289] **ATLANTIC: …** (2023-11-21). 31 citations, 61 views.
+PAPER_LINE_RE = re.compile(
+    r"^\s*[-*]\s*\[ID=(?P<id>[^\]]*)\]\s*\*\*(?P<title>.+?)\*\*"
+    r"\s*(?:\((?P<date>[^)]*)\))?[.,]?\s*(?P<cites>[\d,]+)\s+citations?",
+    re.I,
+)
+
+
 def extract_papers(data) -> list[dict]:
-    """Find paper records anywhere in a tool result (dicts with a title and citations)."""
+    """Find paper records in a tool result: Markdown lines or JSON dicts with a title and citations."""
+    if isinstance(data, str):
+        return [
+            {
+                "title": m["title"],
+                "arxiv_id": m["id"],
+                "publication_date": m["date"] or "",
+                "citations": int(m["cites"].replace(",", "")),
+            }
+            for m in map(PAPER_LINE_RE.match, data.splitlines())
+            if m
+        ]
+
     found = []
 
     def walk(node):
