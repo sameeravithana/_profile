@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14",
+  "lastUpdated": "2026-09-28",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
   "removed_titles": [
     "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
@@ -16,7 +16,7 @@
       "authors": "Sai Munikoti, Ian Stewart, Sameera Horawalavithana, Henry Kvinge, Tegan Emerson, Sandra Barr, Karl Pazdernik",
       "venue": "Neurocomputing",
       "year": 2026,
-      "citations": 20,
+      "citations": 0,
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231226003309",
       "pdfUrl": "",
       "topics": [
@@ -88,7 +88,7 @@
       "authors": "Rounak Meyur, Hung Phan, Koby Hayashi, Ian Stewart, Shivam Sharma, Sarthak Chaturvedi, Mike Parker, Dan Nally, ..., Sameera Horawalavithana, Anurag Acharya",
       "venue": "Workshop on Large Language Models for Scientific and Societal Advances (SciSoc LLM), 2025 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
       "year": 2024,
-      "citations": 22,
+      "citations": 24,
       "url": "https://arxiv.org/abs/2407.07321",
       "pdfUrl": "",
       "topics": [
@@ -112,7 +112,7 @@
       "authors": "Sridevi Wagle, Sai Munikoti, Anurag Acharya, Sara Smith, Sameera Horawalavithana",
       "venue": "Scientific Document Understanding, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
-      "citations": 9,
+      "citations": 12,
       "url": "https://arxiv.org/abs/2311.09358",
       "pdfUrl": "",
       "topics": [
@@ -136,7 +136,7 @@
       "authors": "Sai Munikoti, Anurag Acharya, Shivam Wagle, Sameera Horawalavithana",
       "venue": "Workshop on Scholarly Document Processing (SDP), EMNLP 2023",
       "year": 2023,
-      "citations": 14,
+      "citations": 15,
       "url": "https://aclanthology.org/2024.sdp-1.8/",
       "pdfUrl": "",
       "topics": [
@@ -160,7 +160,7 @@
       "authors": "Anurag Acharya, Sai Munikoti, Aaron Hellinger, Sara Smith, Shivam Wagle, Sameera Horawalavithana",
       "venue": "arXiv preprint",
       "year": 2023,
-      "citations": 14,
+      "citations": 18,
       "url": "https://arxiv.org/abs/2310.10920",
       "pdfUrl": "",
       "topics": [
@@ -401,7 +401,7 @@
       "authors": "Essa Alhazmi, Sameera Horawalavithana, John Skvoretz, Jeremy Blackburn, Adriana Iamnitchi",
       "venue": "International Conference on Advances in Social Networks Analysis and Mining (ASONAM) 2017",
       "year": 2017,
-      "citations": 21,
+      "citations": 22,
       "url": "https://arxiv.org/abs/1708.03015",
       "pdfUrl": "https://arxiv.org/pdf/1708.03015",
       "topics": [
@@ -484,7 +484,7 @@
       "authors": "Kin Wai Ng and Sameera Horawalavithana and Adriana Iamnitchi",
       "venue": "arXiv preprint arXiv:2109.11024",
       "year": 2021,
-      "citations": 2,
+      "citations": 14,
       "url": "https://arxiv.org/abs/2109.11024",
       "pdfUrl": "",
       "topics": [],
@@ -583,7 +583,7 @@
       "authors": "Nithin Somasekharan and Youssef Hassan and Shiyao Lin and Gihan Panapitiya and Patrick Emami and Anurag Acharya and Sameera Horawalavithana and Shaowu Pan",
       "venue": "arXiv preprint arXiv:2605.18630",
       "year": 2026,
-      "citations": 0,
+      "citations": 1,
       "url": "https://arxiv.org/abs/2605.18630",
       "pdfUrl": "",
       "topics": [],
@@ -630,6 +630,17 @@
       "citations": 0,
       "url": "https://arxiv.org/abs/2605.26320",
       "pdfUrl": "",
+      "topics": [],
+      "tags": []
+    },
+    {
+      "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
+      "authors": "",
+      "venue": "arXiv",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2608.14667",
+      "pdfUrl": "https://arxiv.org/pdf/2608.14667",
       "topics": [],
       "tags": []
     }
