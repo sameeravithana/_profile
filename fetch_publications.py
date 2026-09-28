@@ -194,11 +194,35 @@ def to_entry(p: dict) -> dict:
         "title": " ".join(str(p.get("title") or p.get("paper_title")).split()),
         "authors": authors,
         "venue": _first(p, "venue", "journal") or ("arXiv" if arxiv_id else ""),
-        "year": str(year) if year else None,
+        "year": int(year) if year else None,
         "citations": int(_first(p, "citations", "citation_count", "citationCount", "cited_by_count") or 0),
         "url": f"https://arxiv.org/abs/{arxiv_id}" if arxiv_id else "",
         "pdfUrl": f"https://arxiv.org/pdf/{arxiv_id}" if arxiv_id else "",
     }
+
+
+def arxiv_authors(arxiv_ids: list[str]) -> dict[str, str]:
+    """Look up author lists on the arXiv API ({id: "A, B, C"}); best effort."""
+    if not arxiv_ids:
+        return {}
+    import xml.etree.ElementTree as ET
+
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    url = "https://export.arxiv.org/api/query?max_results=100&id_list=" + ",".join(arxiv_ids)
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "profile-publications/1.0"})
+        with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+            root = ET.fromstring(resp.read())
+    except Exception as e:
+        print(f"  Warning: arXiv author lookup failed — {e}")
+        return {}
+    out = {}
+    for entry in root.findall("a:entry", ns):
+        m = re.search(r"(\d{4}\.\d{4,5})", entry.findtext("a:id", "", ns))
+        names = [a.findtext("a:name", "", ns) for a in entry.findall("a:author", ns)]
+        if m and names:
+            out[m.group(1)] = ", ".join(names)
+    return out
 
 
 def fetch_from_alphaxiv(slug: str) -> list[dict]:
@@ -296,8 +320,9 @@ def merge(existing: dict, fresh: list[dict]) -> dict:
         ep = existing_by_norm.get(key) or existing_by_arxiv.get(arxiv_id_of(fp) or "")
         if ep is not None:
 
-            # Only update citation count
-            if ep.get("citations", 0) != fp["citations"]:
+            # Only update citation count, and never lower it: sources count
+            # citations differently (e.g. a preprint vs. its journal version).
+            if fp["citations"] > ep.get("citations", 0):
                 ep["citations"] = fp["citations"]
                 updated += 1
 
@@ -323,6 +348,14 @@ def merge(existing: dict, fresh: list[dict]) -> dict:
                 }
             )
             added += 1
+
+    # alphaXiv doesn't return authors; fill them in from arXiv for new papers.
+    authors = arxiv_authors([aid for aid in map(arxiv_id_of, new_entries) if aid])
+    for p in new_entries:
+        if not p["authors"]:
+            p["authors"] = authors.get(arxiv_id_of(p) or "", "")
+        if p["venue"] == "arXiv":
+            p["venue"] = "arXiv preprint"
 
     existing["publications"] = existing_pubs + new_entries
     existing["lastUpdated"] = str(date.today())
