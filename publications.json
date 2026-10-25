@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18",
+  "lastUpdated": "2026-10-25",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
   "removed_titles": [
     "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
@@ -76,7 +76,7 @@
       "authors": "Sameera Horawalavithana, Sai Munikoti, Ian Stewart, Henry Kvinge, Karl Pazdernik",
       "venue": "NLP4SCIENCE Workshop, EMNLP 2024",
       "year": 2024,
-      "citations": 47,
+      "citations": 48,
       "url": "https://aclanthology.org/2024.nlp4science-1.7/",
       "pdfUrl": "",
       "topics": [
@@ -649,6 +649,17 @@
       "topics": [
         "ai-science"
       ]
+    },
+    {
+      "title": "TopicMerge: A Divide and Conquer Approach to Topic Modeling",
+      "authors": "Matthew Raffel, Lizhong Chen, Sai Munikoti, Sameera Horawalavithana",
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2610.19323",
+      "pdfUrl": "https://arxiv.org/pdf/2610.19323",
+      "topics": [],
+      "tags": []
     }
   ],
   "technicalReports": [
