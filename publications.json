@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25",
+  "lastUpdated": "2026-11-01",
   "scholarUrl": "https://scholar.google.com/citations?user=5PvG8ugAAAAJ",
   "removed_titles": [
     "Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models",
@@ -16,7 +16,7 @@
       "authors": "Sai Munikoti, Ian Stewart, Sameera Horawalavithana, Henry Kvinge, Tegan Emerson, Sandra Barr, Karl Pazdernik",
       "venue": "Neurocomputing",
       "year": 2026,
-      "citations": 20,
+      "citations": 26,
       "url": "https://www.sciencedirect.com/science/article/pii/S0925231226003309",
       "pdfUrl": "",
       "topics": [
@@ -112,7 +112,7 @@
       "authors": "Sridevi Wagle, Sai Munikoti, Anurag Acharya, Sara Smith, Sameera Horawalavithana",
       "venue": "Scientific Document Understanding, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
-      "citations": 12,
+      "citations": 13,
       "url": "https://arxiv.org/abs/2311.09358",
       "pdfUrl": "",
       "topics": [
@@ -124,7 +124,7 @@
       "authors": "Sai Munikoti, Anurag Acharya, Sridevi Wagle, Sameera Horawalavithana",
       "venue": "AI to Accelerate Science and Engineering, The Thirty-Eighth Annual AAAI Conference on Artificial Intelligence",
       "year": 2023,
-      "citations": 31,
+      "citations": 34,
       "url": "https://arxiv.org/abs/2311.12289",
       "pdfUrl": "",
       "topics": [
@@ -136,7 +136,7 @@
       "authors": "Sai Munikoti, Anurag Acharya, Shivam Wagle, Sameera Horawalavithana",
       "venue": "Workshop on Scholarly Document Processing (SDP), EMNLP 2023",
       "year": 2023,
-      "citations": 15,
+      "citations": 16,
       "url": "https://aclanthology.org/2024.sdp-1.8/",
       "pdfUrl": "",
       "topics": [
@@ -160,7 +160,7 @@
       "authors": "Anurag Acharya, Sai Munikoti, Aaron Hellinger, Sara Smith, Shivam Wagle, Sameera Horawalavithana",
       "venue": "arXiv preprint",
       "year": 2023,
-      "citations": 18,
+      "citations": 20,
       "url": "https://arxiv.org/abs/2310.10920",
       "pdfUrl": "",
       "topics": [
@@ -305,7 +305,7 @@
       "authors": "Sameera Horawalavithana, John Skvoretz, Adriana Iamnitchi",
       "venue": "arXiv preprint",
       "year": 2020,
-      "citations": 11,
+      "citations": 12,
       "url": "https://arxiv.org/abs/2004.12373",
       "pdfUrl": "",
       "topics": [
@@ -584,7 +584,7 @@
       "authors": "Nithin Somasekharan, Youssef Hassan, Shiyao Lin, Gihan Panapitiya, Patrick Emami, Anurag Acharya, Sameera Horawalavithana, Shaowu Pan",
       "venue": "arXiv preprint",
       "year": 2026,
-      "citations": 1,
+      "citations": 4,
       "url": "https://arxiv.org/abs/2605.18630",
       "pdfUrl": "",
       "topics": [
@@ -596,7 +596,7 @@
       "authors": "Renuka Chintalapati, Sid Raskar, Anurag Acharya, Jared Willard, Patrick Emami, Sameera Horawalavithana",
       "venue": "arXiv preprint",
       "year": 2026,
-      "citations": 0,
+      "citations": 1,
       "url": "https://arxiv.org/abs/2605.18854",
       "pdfUrl": "",
       "topics": [
@@ -608,7 +608,7 @@
       "authors": "Derek Lilienthal, Manisha Mukherjee, Sameera Horawalavithana",
       "venue": "arXiv preprint",
       "year": 2026,
-      "citations": 1,
+      "citations": 2,
       "url": "https://arxiv.org/abs/2604.13993",
       "pdfUrl": "",
       "topics": [
